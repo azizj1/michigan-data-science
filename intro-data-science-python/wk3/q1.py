@@ -44,6 +44,7 @@ def merge(energy, GDP, ScimEn):
     mergeDf = pd.merge(energy, GDP, how='inner', left_on='Country', right_on='Country Name')
     mergeDf = pd.merge(mergeDf, ScimEn, how='inner', on='Country')
     return mergeDf
+
 def answer():
     energy = getEnergy()
     GDP = getGdp()
@@ -52,8 +53,8 @@ def answer():
     # merge
     mergeDf = merge(energy, GDP, ScimEn)
     mergeColumnsToKeep = ['Country', 'Rank', 'Documents', 'Citable documents', 'Citations', 'Self-citations',
-                        'Citations per document', 'H index', 'Energy Supply', 'Energy Supply per Capita', '% Renewable',
-                        '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']
+                          'Citations per document', 'H index', 'Energy Supply', 'Energy Supply per Capita',
+                          '% Renewable', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']
     mergeDf = mergeDf[mergeColumnsToKeep].sort_values('Rank').head(15).set_index('Country')
     return mergeDf
 
