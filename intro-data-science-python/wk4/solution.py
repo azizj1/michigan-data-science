@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 from scipy.stats import ttest_ind
 
+pd.set_option('display.max_rows', 50)
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 150)
+
 states = {'OH': 'Ohio', 'KY': 'Kentucky', 'AS': 'American Samoa', 'NV': 'Nevada', 'WY': 'Wyoming', 'NA': 'National',
           'AL': 'Alabama', 'MD': 'Maryland', 'AK': 'Alaska', 'UT': 'Utah', 'OR': 'Oregon', 'MT': 'Montana',
           'IL': 'Illinois', 'TN': 'Tennessee', 'DC': 'District of Columbia', 'VT': 'Vermont', 'ID': 'Idaho',
@@ -39,5 +43,18 @@ def get_list_of_university_towns():
 
     return pd.DataFrame(stateTownsList, columns=["State", "RegionName"])
 
-df = get_list_of_university_towns()
-print(df)
+def yearMoToYearQuarter(yearMo: str):
+    yearMo = yearMo.split('-')
+    month = int(yearMo[1])
+    quarter = int((month - 1) / 3) + 1
+    return yearMo[0] + 'q' + str(quarter)
+
+def convert_housing_data_to_quarters():
+    return pd.read_csv('City_Zhvi_AllHomes.csv') \
+            .replace({'State': states}) \
+            .set_index(['State', 'RegionName']) \
+            .iloc[:, 49:] \
+            .groupby(yearMoToYearQuarter, axis=1) \
+            .mean()
+
+print(convert_housing_data_to_quarters())
