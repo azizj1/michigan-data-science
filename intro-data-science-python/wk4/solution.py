@@ -58,28 +58,58 @@ def convert_housing_data_to_quarters():
             .mean()
 
 def readGdp():
-    gdp = pd.read_excel('gdplev.xls', sheetname=0, skiprows=8, header=None).iloc[:, [4,6]]
+    gdp = pd.read_excel('gdplev.xls', sheetname=0, skiprows=8, header=None).iloc[:, [4, 6]]
     gdp.columns = ['year-quarter', 'gdp']
     startIndex = gdp.loc[(gdp['year-quarter'] == '2000q1'), :].index[0]
     gdp = gdp.iloc[startIndex:, :]
     gdp['diff'] = gdp['gdp'] - gdp['gdp'].shift(1)
     return gdp.set_index('year-quarter')
 
+# 2008q3
 def get_recession_start():
     gdp = readGdp()
     return gdp[(gdp['diff'] < 0) & (gdp['diff'].shift(-1) < 0)].index[0]
 
+# 2009q4
 def get_recession_end():
     gdp = readGdp()
     recessionStart = get_recession_start()
     return gdp.loc[recessionStart:, :].where((gdp['diff'] > 0) & (gdp['diff'].shift(1) > 0)).dropna().index[0]
 
+# 2009q2
 def get_recession_bottom():
     gdp = readGdp()
     recessionStart = get_recession_start()
     recessionEnd = get_recession_end()
     return gdp.loc[recessionStart:recessionEnd, 'gdp'].idxmin()
 
-print(get_recession_start())
-print(get_recession_end())
-print(get_recession_bottom())
+# 2008q2
+def get_recession_start_before():
+    gdp = readGdp()
+    return gdp[(gdp['diff'].shift(-1) < 0) & (gdp['diff'].shift(-2) < 0)].index[0]
+
+def house_data_with_universities():
+    beforeRecessionColumn = get_recession_start_before()
+    recessionBottomColumn = get_recession_bottom()
+    houseData = convert_housing_data_to_quarters() \
+        .loc[:, [beforeRecessionColumn, recessionBottomColumn]] \
+        .reset_index() \
+        .dropna()
+    houseData['price_ratio'] = houseData[beforeRecessionColumn] / houseData[recessionBottomColumn]
+    universityTowns = get_list_of_university_towns()
+    universityTowns['isUniversityTown'] = True
+    houseDataWithUniversities = pd.merge(houseData, universityTowns, how='left', on=['State', 'RegionName'])
+    houseDataWithUniversities['isUniversityTown'].fillna(False, inplace=True)
+    return houseDataWithUniversities
+
+def run_ttest():
+    houseDataWithUniversities = house_data_with_universities()
+    withUni = houseDataWithUniversities[houseDataWithUniversities['isUniversityTown']].loc[:, 'price_ratio'].dropna()
+    withoutUni = houseDataWithUniversities[~houseDataWithUniversities['isUniversityTown']].loc[:, 'price_ratio'].dropna()
+    withUniMean = withUni.mean()
+    withoutUniMean = withoutUni.mean()
+    alpha = 0.01
+    stats = ttest_ind(withUni, withoutUni)
+    p = stats[1]
+    return (p < alpha, p, 'university town' if withUniMean < withoutUniMean else 'non-university town')
+print(run_ttest())
