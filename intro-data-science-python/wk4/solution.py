@@ -63,25 +63,23 @@ def readGdp():
     startIndex = gdp.loc[(gdp['year-quarter'] == '2000q1'), :].index[0]
     gdp = gdp.iloc[startIndex:, :]
     gdp['diff'] = gdp['gdp'] - gdp['gdp'].shift(1)
-    gdp.reset_index(drop=True, inplace=True)
-    return gdp
+    return gdp.set_index('year-quarter')
 
 def get_recession_start():
     gdp = readGdp()
-    return gdp[(gdp['diff'] < 0) & (gdp['diff'].shift(-1) < 0)].iloc[0, 0]
+    return gdp[(gdp['diff'] < 0) & (gdp['diff'].shift(-1) < 0)].index[0]
 
 def get_recession_end():
     gdp = readGdp()
     recessionStart = get_recession_start()
-    startIndex = gdp.loc[gdp['year-quarter'] == recessionStart, :].index[0]
-    return gdp.iloc[startIndex:, :].where((gdp['diff'] > 0) & (gdp['diff'].shift(1) > 0)).dropna().iloc[0,0]
+    return gdp.loc[recessionStart:, :].where((gdp['diff'] > 0) & (gdp['diff'].shift(1) > 0)).dropna().index[0]
 
 def get_recession_bottom():
     gdp = readGdp()
     recessionStart = get_recession_start()
-    startIndex = gdp.loc[gdp['year-quarter'] == recessionStart, :].index[0]
     recessionEnd = get_recession_end()
-    endIndex = gdp.loc[gdp['year-quarter'] == recessionEnd, :].index[0]
-    return gdp.iloc[startIndex:endIndex, [0, 1]].set_index('year-quarter').idxmin()[0]
+    return gdp.loc[recessionStart:recessionEnd, 'gdp'].idxmin()
 
+print(get_recession_start())
+print(get_recession_end())
 print(get_recession_bottom())
