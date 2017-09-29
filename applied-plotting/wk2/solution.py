@@ -1,13 +1,17 @@
 import matplotlib.pyplot as plt
 import mplleaflet
-import numpy as np
 import pandas as pd
+import matplotlib.dates as mdates
+from matplotlib.ticker import FuncFormatter
+from matplotlib import colors
 
 fileName = '9f4fb72513673045265389f0be9205e3a64666064cb459a03f4a6b2b'
+fileDirectory = '' #'data/C2A2_data/BinnedCsvs_d400/'
+binDirectory = '' #'data/C2A2_data/'
 
 def leaflet_plot_stations(binsize, hashid):
 
-    df = pd.read_csv('BinSize_d{}.csv'.format(binsize))
+    df = pd.read_csv('{}BinSize_d{}.csv'.format(binDirectory, binsize))
 
     station_locations_by_hash = df[df['hash'] == hashid]
     print(station_locations_by_hash)
@@ -23,47 +27,53 @@ def leaflet_plot_stations(binsize, hashid):
 # leaflet_plot_stations(400, fileName)
 
 def highLowsPlots():
-    originalTemp = pd.read_csv(fileName + '.csv')
+    originalTemp = pd.read_csv(fileDirectory + fileName + '.csv')
+    # will convert all 2005-2014 to 1900.
     originalTemp = originalTemp \
         .where(~originalTemp['Date'].str.endswith('02-29')) \
         .dropna() \
-        .replace({'Date': {r'2015-(.+)': r'1900-\1', r'(?!1900)^.+?-(.+)': r'2015-\1'}}, regex=True) \
+        .replace({'Date': {r'(?!2015)^.+?-(.+)': r'1900-\1'}}, regex=True) \
         .groupby(['Element', 'Date']) \
-        .agg({'Data_Value': {'max': np.max, 'min': np.min}})
-
+        .agg({'Data_Value': ['min', 'max']})
+    # originalTemp is a table with multiindex (Element, Date) and multi level columns
+    # (Data_Value, min) (Data_Value, max)
     originalTemp.index = originalTemp.index.map(lambda t: (t[0], pd.to_datetime(t[1])))
     maxAllData = originalTemp.loc['TMAX', ('Data_Value', 'max')]
     minAllData = originalTemp.loc['TMIN', ('Data_Value', 'min')]
-    print(maxAllData)
 
-    max05_14 = maxAllData['2015']
-    min05_14 = minAllData['2015']
-    max05_14_dates = max05_14.index.values
-    # print(originalTemp)
-    # gotta split the data first, taking 2015 out. 
-    # print(originalTemp)
-    # originalTemp.loc[:, 'Date'] = pd.to_datetime(originalTemp['Date'])
-    # originalTemp.set_index('Date', inplace=True)
-    # temp = originalTemp['2005':'2014']
-    # tempMax = temp[temp['Element'] == 'TMAX'].groupby(level=0).max()
-    # tempMin = temp[temp['Element'] == 'TMIN'].groupby(level=0).min()
+    # maxAllData['2015'] is a series, so you can't add columns to it. Doing maxAllData['1900'] will grab all data
+    # that has an index in 1900, so 1900-01-01, 1900-04-18, etc.
+    maxAllData = pd.DataFrame({'2005-2014': maxAllData['1900'], '2015': maxAllData['2015'].values})
+    minAllData = pd.DataFrame({'2005-2014': minAllData['1900'], '2015': minAllData['2015'].values})
 
-    # temp2015 = originalTemp['2015']
-    # temp2015max = pd.concat([temp2015[temp2015['Element'] == 'TMAX'].groupby(level=0).max()]*10)
-    # temp2015max['New_Date'] = tempMax.index
-    # temp2015max.set_index('New_Date', inplace=True)
-    # temp2015min = pd.concat([temp2015[temp2015['Element'] == 'TMIN'].groupby(level=0).min()]*10)
-    # temp2015min['New_Date'] = tempMin.index
-    # temp2015min.set_index('New_Date', inplace=True)
+    maxAllData['broken_2015'] = maxAllData.where(maxAllData['2015'] > maxAllData['2005-2014']).loc[:, '2015']
+    minAllData['broken_2015'] = minAllData.where(minAllData['2015'] < minAllData['2005-2014']).loc[:, '2015']
+    maxAllData_dates = maxAllData.index.values
 
-    # tempMax['Broken_Record_2015'] = temp2015max.where(temp2015max['Data_Value'] > tempMax['Data_Value']).loc[:, 'Data_Value']
-    # tempMin['Broken_Record_2015'] = temp2015min.where(temp2015min['Data_Value'] < tempMin['Data_Value']).loc[:, 'Data_Value']
+    ax = plt.gca()
+    plt.plot(maxAllData_dates, maxAllData['2005-2014'], 'gray', label='2005-2014')
+    plt.scatter(maxAllData.dropna().index, maxAllData.dropna().loc[:, 'broken_2015'], color='b', s=15, label='2015')
+    plt.legend(loc=2)
 
-    plt.plot(max05_14_dates, max05_14.values, max05_14_dates, min05_14.values)
-    plt.gca().fill_between(max05_14_dates, max05_14.values, min05_14.values, facecolor='gray', alpha=0.5)
+    plt.plot(maxAllData_dates, minAllData['2005-2014'], 'gray')
+    plt.scatter(minAllData.dropna().index, minAllData.dropna().loc[:, 'broken_2015'], color='b', s=15)
+    ax.fill_between(maxAllData_dates, maxAllData['2005-2014'],
+                    minAllData['2005-2014'], facecolor='gray', alpha=0.3)
 
-    # plt.scatter(tempMax.dropna().index, tempMax.dropna().loc[:, 'Broken_Record_2015'], color='g', s=10)
-    # plt.scatter(tempMin.dropna().index, tempMin.dropna().loc[:, 'Broken_Record_2015'], color='g', s=10)
+    pltFormat = mdates.DateFormatter('%b')
+    plt.xticks(alpha=0.8)
+    plt.yticks(alpha=0.8)
+    ax.xaxis.set_major_formatter(pltFormat)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0f} $\degree$C'.format(float(y) / 10)))
+    rightAx = ax.twinx()
+    rightAx.set_ylim(ax.get_ylim())
+    rightAx.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0f} $\degree$F'.format(float(y) / 10 * 1.8 + 32)))
+    rightAx.yaxis.set_alpha(0.8)
+    rightAx.tick_params(axis='y', colors=colors.to_rgba('#000000', 0.8))
+    plt.title('Milwaukee, WI Temperatures\nin 2005-2014 vs. 2015', alpha=0.8)
+    for spine in plt.gca().spines.values():
+        spine.set_color(colors.to_rgba('#ffffff', 0.8))
     plt.show()
+
 
 highLowsPlots()
