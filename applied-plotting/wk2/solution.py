@@ -1,10 +1,7 @@
 # Python 3.6.2
-import matplotlib.pyplot as plt
+from matplotlib import colors, ticker, dates as mdates, pyplot as plt
 import mplleaflet
 import pandas as pd
-import matplotlib.dates as mdates
-from matplotlib.ticker import FuncFormatter
-from matplotlib import colors
 
 fileHash = '9f4fb72513673045265389f0be9205e3a64666064cb459a03f4a6b2b'
 fileDirectory = '' #'data/C2A2_data/BinnedCsvs_d400/'
@@ -71,12 +68,13 @@ def stylePlot():
     plt.yticks(alpha=0.8)
 
     # some pretty formatting of the y-axis ticks
-    ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0f} $\degree$C'.format(float(y) / 10)))
+    ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.0f} $\degree$C'.format(float(y) / 10)))
 
     # right y-axis, making it identical to the first barring the values
     rightAx = ax.twinx()
     rightAx.set_ylim(ax.get_ylim())
-    rightAx.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0f} $\degree$F'.format(float(y) / 10 * 1.8 + 32)))
+    rightAx.yaxis.set_major_formatter(
+        ticker.FuncFormatter(lambda y, _: '{:.0f} $\degree$F'.format(float(y) / 10 * 1.8 + 32)))
     rightAx.yaxis.set_alpha(0.8)
     rightAx.tick_params(axis='y', colors=colors.to_rgba('#000000', 0.8))
 
