@@ -7,13 +7,15 @@ MIN_STUDENTS = 0
 
 def getFiles():
     dataDir = './data/public-schools/'
-    return ['{}{}'.format(dataDir, f.name) for f in os.scandir('./data/public-schools/') if f.is_file()]
+    return [dataDir + f.name for f in os.scandir(dataDir) if f.is_file()]
 
 def sumStudentCount(group):
     highSchoolPopulation = group \
         .loc[group['GROUP_BY'] == 'Grade Level', 'STUDENT_COUNT'] \
         .astype(int) \
         .sum()
+    # append(0) below in case the .loc returns an empty set (no-male school), so that when we do .values[0],
+    # it doesn't crash
     malePercent = group \
         .loc[group['GROUP_BY_VALUE'] == 'Male', 'PERCENT_OF_GROUP'] \
         .append([pd.Series([0])]) \
@@ -26,8 +28,8 @@ def sumStudentCount(group):
         'County': group.loc[group.index[0], 'COUNTY'],
         'DistrictName': group.loc[group.index[0], 'DISTRICT_NAME'],
         'SchoolName': group.loc[group.index[0], 'SCHOOL_NAME'],
-        '{}-Male'.format(year): totalMales,
-        '{}-Female'.format(year): highSchoolPopulation - totalMales
+        year + '-Male': totalMales,
+        year + '-Female': highSchoolPopulation - totalMales
     })
 
 def csvToDataFrame(filePath):
@@ -40,7 +42,7 @@ def csvToDataFrame(filePath):
         .groupby(['DISTRICT_CODE', 'SCHOOL_CODE']) \
         .apply(sumStudentCount) \
         .dropna()
-    print(data.shape)
+    print('Loaded {} data for {}'.format(data.shape, filePath))
     return data
 
 def reduceData(cum, current):
