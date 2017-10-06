@@ -1,0 +1,801 @@
+DistrictCode,SchoolCode,2006-07,DistrictName,SchoolName,County,2007-08,2008-09,2009-10,2010-11,2011-12,2012-13,2013-14,2014-15,2015-16,2016-17
+0007,0040,197.0,Abbotsford,Abbotsford Middle/Senior High,Clark,208.0,206.0,205.0,205.0,205.0,205.0,181.0,204.0,196.0,193.0
+0014,0040,634.0,Adams-Friendship Area,Adams-Friendship High,Adams,616.0,607.0,559.0,564.0,531.0,500.0,515.0,483.0,489.0,489.0
+0063,0040,148.0,Albany,Albany High,Green,138.0,120.0,122.0,108.0,103.0,107.0,99.0,114.0,109.0,105.0
+0070,0040,230.0,Algoma,Algoma High,Kewaunee,217.0,227.0,213.0,215.0,209.0,207.0,230.0,245.0,250.0,254.0
+0084,0040,116.0,Alma,Alma High,Buffalo,112.0,104.0,105.0,91.0,84.0,87.0,73.0,69.0,77.0,67.0
+0091,0060,191.0,Alma Center,Lincoln High,Jackson,186.0,187.0,177.0,182.0,174.0,194.0,196.0,207.0,194.0,171.0
+0105,0040,154.0,Almond-Bancroft,Almond High,Portage,141.0,145.0,138.0,125.0,135.0,131.0,111.0,120.0,123.0,121.0
+0112,0040,446.0,Altoona,Altoona High,Eau Claire,465.0,462.0,449.0,480.0,464.0,455.0,445.0,427.0,428.0,419.0
+0119,0040,606.0,Amery,Amery High,Polk,562.0,531.0,553.0,539.0,524.0,528.0,492.0,447.0,465.0,461.0
+0126,0060,253.0,Tomorrow River,Amherst High,Portage,272.0,282.0,291.0,283.0,280.0,281.0,275.0,303.0,331.0,326.0
+0126,0850,,Tomorrow River,Central Wisconsin Virtual School,Portage,,,,,,,,1.0,,
+0140,0070,1043.0,Antigo,Antigo High,Langlade,1022.0,988.0,968.0,920.0,872.0,837.0,808.0,803.0,794.0,809.0
+0140,9100,,Antigo Unified,Rural Virtual Academy,Langlade,,,,,,,,1.0,2.0,6.0
+0147,0020,1518.0,Appleton Area,East High,Outagamie,1537.0,1529.0,1507.0,1428.0,1359.0,1295.0,1312.0,1383.0,1347.0,1370.0
+0147,0030,1721.0,Appleton Area,North High,Outagamie,1617.0,1554.0,1497.0,1517.0,1438.0,1478.0,1485.0,1531.0,1599.0,1636.0
+0147,0040,1462.0,Appleton Area,West High,Outagamie,1435.0,1419.0,1292.0,1275.0,1191.0,1147.0,1105.0,1096.0,1067.0,1082.0
+0147,0400,99.0,Appleton Area,Appleton Central Alternative School,Outagamie,88.0,95.0,107.0,114.0,103.0,102.0,102.0,102.0,101.0,
+0147,0420,163.0,Appleton Area,Renaissance Sch,Outagamie,162.0,158.0,161.0,179.0,176.0,184.0,200.0,202.0,195.0,175.0
+0147,0430,75.0,Appleton Area,Tesla Engineering Charter School,Outagamie,78.0,78.0,86.0,108.0,89.0,92.0,114.0,117.0,130.0,125.0
+0147,0440,13.0,Appleton Area,Appleton eSchool,Outagamie,12.0,26.0,24.0,32.0,22.0,25.0,27.0,26.0,13.0,15.0
+0147,0450,,Appleton Area,Appleton Career Academy,Outagamie,98.0,141.0,117.0,112.0,122.0,106.0,108.0,104.0,111.0,105.0
+0147,0460,56.0,Appleton Area,Valley New School,Outagamie,52.0,54.0,45.0,45.0,42.0,48.0,52.0,52.0,48.0,46.0
+0147,0470,,Appleton Area,United Public Montessori (UPM),Outagamie,,,,3.0,4.0,20.0,13.0,,,
+0147,0480,8.0,Appleton Area,Dan Spalding Academy,Outagamie,,,,,,,,,,
+0147,0490,,Appleton Area,Appleton Technical Academy,Outagamie,,,,,,,,56.0,73.0,69.0
+0147,0800,,Appleton Area,Appleton Cooperative Educational Center,Outagamie,2.0,7.0,3.0,3.0,5.0,3.0,,,,3.0
+0147,0820,,Appleton Area,Appleview,Outagamie,,,,,,,,,,6.0
+0147,0850,,Appleton Area,Wisconsin Connections Academy,Outagamie,,,,,121.0,206.0,246.0,235.0,264.0,253.0
+0154,0040,309.0,Arcadia,Arcadia High,Trempealeau,312.0,324.0,330.0,342.0,340.0,347.0,332.0,329.0,349.0,356.0
+0161,0040,118.0,Argyle,Argyle High,Lafayette,118.0,116.0,107.0,95.0,95.0,98.0,95.0,101.0,98.0,96.0
+0161,9412,1.0,Argyle,Lafayette County Community Charter School,Lafayette,,,,,,,,,,
+0170,0020,771.0,Ashland,Ashland High,Ashland,754.0,752.0,747.0,719.0,727.0,715.0,722.0,703.0,630.0,635.0
+0170,0400,,Ashland,Ashland Charter High School,Ashland,,,,,,,,,43.0,24.0
+0182,0020,1087.0,Ashwaubenon,Ashwaubenon High,Brown,1102.0,1070.0,1048.0,1013.0,1017.0,1032.0,1069.0,1062.0,1053.0,1042.0
+0182,9204,1.0,Ashwaubenon,Northeast WI Online Charter Sch (NEWOCS),Brown,,,,,,,,,,
+0196,0040,196.0,Athens,Athens High,Marathon,194.0,194.0,205.0,214.0,216.0,210.0,202.0,197.0,191.0,183.0
+0203,0060,289.0,Auburndale,Auburndale High,Wood,294.0,291.0,267.0,274.0,256.0,247.0,253.0,242.0,237.0,241.0
+0203,9100,,Auburndale,Rural Virtual Academy,Wood,,,,,,,,,,1.0
+0217,0040,190.0,Augusta,Augusta High,Eau Claire,204.0,192.0,184.0,180.0,167.0,160.0,162.0,147.0,144.0,150.0
+0217,0410,20.0,Augusta,Wildlands Charter School,Eau Claire,17.0,22.0,24.0,23.0,37.0,36.0,40.0,43.0,41.0,44.0
+0231,0040,453.0,Baldwin-Woodville Area,Baldwin-Woodville High,Saint Croix,451.0,477.0,465.0,482.0,461.0,434.0,470.0,460.0,476.0,466.0
+0238,0100,364.0,Unity,Unity High,Polk,371.0,361.0,360.0,359.0,309.0,292.0,271.0,267.0,269.0,260.0
+0245,0040,227.0,Bangor,Bangor Middle/High,La Crosse,230.0,230.0,230.0,216.0,201.0,172.0,161.0,169.0,180.0,180.0
+0280,0040,1014.0,Baraboo,Baraboo High,Sauk,1013.0,1022.0,1022.0,1036.0,1020.0,985.0,958.0,979.0,992.0,964.0
+0287,0040,121.0,Barneveld,Barneveld High,Iowa,124.0,131.0,119.0,122.0,111.0,113.0,118.0,125.0,117.0,124.0
+0308,0030,459.0,Barron Area,Barron High,Barron,462.0,441.0,418.0,387.0,383.0,365.0,373.0,365.0,365.0,365.0
+0308,0810,,Barron Area,Advanced Learning Academy of Wisconsin,Barron,,,,,17.0,37.0,18.0,54.0,46.0,35.0
+0308,9410,9.0,Barron Area,Barron County Learning Center,Barron,9.0,8.0,10.0,16.0,14.0,15.0,12.0,13.0,12.0,15.0
+0315,0040,137.0,Bayfield,Bayfield High,Bayfield,143.0,136.0,141.0,140.0,122.0,127.0,122.0,129.0,125.0,123.0
+0336,0020,2.0,Beaver Dam,Beaver Dam Middle,Dodge,,,,,,,,,,
+0336,0040,1089.0,Beaver Dam,Beaver Dam High,Dodge,1073.0,1072.0,1023.0,1016.0,1013.0,1045.0,1033.0,1043.0,1042.0,1090.0
+0336,0200,81.0,Beaver Dam,Beaver Dam Charter Sch,Dodge,84.0,66.0,,,,,,,,
+0336,0850,,Beaver Dam,Beaver Dam Alternative School,Dodge,,,74.0,65.0,63.0,54.0,50.0,52.0,63.0,60.0
+0350,0040,309.0,Belleville,Belleville High,Dane,310.0,308.0,283.0,277.0,261.0,260.0,251.0,262.0,270.0,260.0
+0364,0040,131.0,Belmont Community,Belmont High,Lafayette,116.0,106.0,90.0,85.0,81.0,71.0,91.0,82.0,94.0,103.0
+0413,0200,2162.0,Beloit,Memorial High,Rock,2080.0,1918.0,1889.0,1758.0,1804.0,1873.0,1763.0,1773.0,1790.0,1749.0
+0413,0410,,Beloit,Roy Chapman Andrews Academy,Rock,31.0,40.0,34.0,32.0,31.0,27.0,26.0,32.0,28.0,20.0
+0413,0420,,Beloit,Eclipse Center Charter School,Rock,105.0,176.0,125.0,93.0,79.0,,,,,
+0413,0421,,Beloit,Beloit Learning Academy,Rock,,,,,,,194.0,199.0,152.0,151.0
+0413,0850,,Beloit,Beloit Kaplan Virtual School,Rock,,,6.0,21.0,13.0,14.0,12.0,14.0,32.0,47.0
+0413,0860,,Beloit,Kolak Education Center,Rock,,,,3.0,1.0,4.0,2.0,,,
+0422,0020,381.0,Beloit Turner,Turner High,Rock,390.0,391.0,415.0,412.0,427.0,440.0,456.0,457.0,464.0,462.0
+0427,0040,83.0,Benton,Benton High,Lafayette,86.0,83.0,73.0,72.0,60.0,69.0,85.0,96.0,90.0,90.0
+0434,0040,616.0,Berlin Area,Berlin High,Green Lake,640.0,610.0,604.0,554.0,555.0,536.0,543.0,543.0,567.0,560.0
+0441,0040,98.0,Birchwood,Birchwood High,Washburn,118.0,109.0,90.0,97.0,86.0,84.0,73.0,69.0,76.0,65.0
+0441,0450,,Birchwood,Birchwood Blue Hills Charter School,Washburn,,,2.0,8.0,9.0,13.0,10.0,12.0,10.0,7.0
+0441,0800,,Birchwood,Bobcat Virtual Academy,Washburn,,,,,,,,,1.0,
+0469,0060,366.0,Wisconsin Heights,Wisconsin Heights High,Dane,339.0,328.0,295.0,269.0,241.0,225.0,217.0,206.0,224.0,229.0
+0476,0040,627.0,Black River Falls,Black River Falls High,Jackson,558.0,574.0,545.0,508.0,511.0,504.0,518.0,519.0,516.0,505.0
+0476,0450,,Black River Falls,Black River Area Green School,Jackson,,,,10.0,14.0,14.0,,,,
+0485,0011,218.0,Blair-Taylor,Blair-Taylor Middle/High,Trempealeau,210.0,214.0,224.0,216.0,195.0,195.0,176.0,172.0,172.0,163.0
+0490,0040,156.0,Pecatonica Area,Pecatonica High,Lafayette,147.0,139.0,134.0,119.0,108.0,108.0,110.0,122.0,139.0,128.0
+0497,0040,383.0,Bloomer,Bloomer High,Chippewa,397.0,381.0,373.0,361.0,356.0,350.0,351.0,358.0,379.0,379.0
+0602,0040,343.0,Bonduel,Bonduel High,Shawano,337.0,325.0,295.0,287.0,312.0,301.0,306.0,326.0,304.0,303.0
+0609,0040,299.0,Boscobel Area,Boscobel High,Grant,297.0,305.0,297.0,292.0,283.0,241.0,239.0,233.0,244.0,241.0
+0623,0040,141.0,Bowler,Bowler High,Shawano,123.0,123.0,116.0,102.0,104.0,104.0,97.0,98.0,100.0,87.0
+0637,0040,276.0,Boyceville Community,Boyceville Middle/High,Dunn,261.0,242.0,237.0,222.0,221.0,211.0,228.0,251.0,221.0,205.0
+0658,0040,331.0,Brillion,Brillion High,Calumet,340.0,367.0,350.0,341.0,332.0,319.0,319.0,303.0,320.0,321.0
+0700,0040,440.0,Brodhead,Brodhead High,Green,420.0,402.0,384.0,352.0,345.0,321.0,328.0,325.0,317.0,333.0
+0714,0020,1414.0,Elmbrook,Central High,Waukesha,1376.0,1349.0,1313.0,1328.0,1290.0,1313.0,1308.0,1324.0,1327.0,1268.0
+0714,0060,1392.0,Elmbrook,East High,Waukesha,1366.0,1332.0,1326.0,1292.0,1304.0,1315.0,1259.0,1285.0,1246.0,1213.0
+0714,0160,15.0,Elmbrook,Fairview South,Waukesha,12.0,12.0,14.0,13.0,14.0,15.0,14.0,12.0,9.0,
+0721,0040,716.0,Brown Deer,Brown Deer High,Milwaukee,680.0,663.0,666.0,653.0,588.0,562.0,560.0,570.0,552.0,564.0
+0721,9417,,Brown Deer,Academy of Learning Competency Based Sch,Milwaukee,27.0,24.0,,,,,,,,
+0735,0040,208.0,Bruce,Bruce High,Rusk,193.0,176.0,177.0,169.0,173.0,164.0,172.0,158.0,151.0,136.0
+0777,0020,1390.0,Burlington Area,Burlington High,Racine,1467.0,1413.0,1389.0,1348.0,1249.0,1201.0,1217.0,1182.0,1145.0,1128.0
+0840,0040,66.0,Butternut,Butternut High,Ashland,58.0,53.0,60.0,49.0,52.0,48.0,54.0,55.0,63.0,55.0
+0840,0450,,Butternut,Promethean Charter School,Ashland,3.0,9.0,5.0,4.0,,,2.0,4.0,1.0,
+0870,0040,292.0,Cadott Community,Cadott High,Chippewa,273.0,268.0,269.0,267.0,251.0,243.0,235.0,256.0,263.0,242.0
+0882,0040,134.0,Cambria-Friesland,Cambria Friesland Middle/High,Columbia,146.0,147.0,126.0,128.0,115.0,116.0,113.0,105.0,111.0,116.0
+0896,0040,336.0,Cambridge,Cambridge High,Dane,307.0,290.0,276.0,270.0,294.0,278.0,274.0,262.0,252.0,253.0
+0903,0040,264.0,Cameron,Cameron High,Barron,244.0,272.0,291.0,269.0,265.0,241.0,269.0,255.0,257.0,255.0
+0903,0800,,Cameron,Cameron Academy of Virtual Education,Barron,,,,1.0,23.0,20.0,25.0,31.0,30.0,21.0
+0903,9410,,Cameron,Barron County Alternative School,Barron,7.0,9.0,10.0,18.0,15.0,15.0,15.0,11.0,14.0,12.0
+0910,0040,521.0,Campbellsport,Campbellsport High,Fond du Lac,527.0,517.0,497.0,497.0,499.0,470.0,454.0,419.0,425.0,426.0
+0980,0040,169.0,Cashton,Cashton High,Monroe,154.0,176.0,175.0,184.0,178.0,175.0,163.0,155.0,147.0,162.0
+0994,0040,128.0,Cassville,Cassville High,Grant,125.0,121.0,112.0,100.0,89.0,86.0,77.0,78.0,75.0,67.0
+1015,0020,1168.0,Cedarburg,Cedarburg High,Ozaukee,1126.0,1117.0,1115.0,1067.0,1105.0,1150.0,1141.0,1162.0,1132.0,1126.0
+1029,0040,304.0,Cedar Grove-Belgium Area,Cedar Grove High,Sheboygan,281.0,307.0,322.0,305.0,326.0,319.0,338.0,350.0,355.0,352.0
+1071,0400,,Chequamegon,Chequamegon High,Price,,,294.0,269.0,271.0,265.0,257.0,263.0,227.0,228.0
+1071,0450,,Chequamegon,Glidden Class ACT Charter,Price,,,11.0,20.0,8.0,1.0,5.0,6.0,,11.0
+1078,0040,343.0,Chetek,Chetek High,Barron,324.0,300.0,276.0,,,,,,,
+1080,0400,,Chetek-Weyerhaeuser Area,Chetek-Weyerhaeuser High,Barron,,,,321.0,311.0,289.0,268.0,270.0,255.0,247.0
+1080,0800,,Chetek-Weyerhaeuser Area,Link2Learn Virtual Charter School,Barron,,,,,4.0,16.0,11.0,9.0,15.0,12.0
+1080,9410,,Chetek-Weyerhaeuser Area,North Star Academy,Barron,,,,7.0,11.0,6.0,9.0,9.0,9.0,10.0
+1085,0040,455.0,Chilton,Chilton High,Calumet,431.0,424.0,434.0,399.0,362.0,378.0,352.0,367.0,375.0,387.0
+1092,0060,1588.0,Chippewa Falls Area,Chippewa Falls High,Chippewa,1598.0,1571.0,1528.0,1465.0,1452.0,1413.0,1444.0,1440.0,1420.0,1533.0
+1120,0040,121.0,Clayton,Clayton High,Polk,139.0,132.0,124.0,122.0,109.0,113.0,115.0,126.0,130.0,110.0
+1127,0040,213.0,Clear Lake,Clear Lake High,Polk,228.0,215.0,215.0,204.0,184.0,163.0,153.0,166.0,179.0,189.0
+1134,0060,396.0,Clinton Community,Clinton High,Rock,383.0,409.0,404.0,404.0,388.0,382.0,378.0,377.0,382.0,365.0
+1141,0040,618.0,Clintonville,Clintonville High,Waupaca,608.0,579.0,524.0,476.0,441.0,467.0,450.0,479.0,522.0,507.0
+1155,0040,203.0,Cochrane-Fountain City,Cochrane-Fountain City High,Buffalo,197.0,175.0,183.0,182.0,184.0,188.0,201.0,208.0,213.0,222.0
+1162,0040,374.0,Colby,Colby High,Clark,341.0,316.0,294.0,290.0,282.0,285.0,283.0,288.0,286.0,289.0
+1162,9100,,Colby,Rural Virtual Academy,Clark,,,,,,,,,1.0,1.0
+1169,0060,255.0,Coleman,Coleman High,Marinette,234.0,235.0,219.0,216.0,230.0,218.0,213.0,197.0,198.0,220.0
+1169,9414,6.0,Coleman,LEARN Charter,Marinette,5.0,,,,,,,,,
+1169,9802,,Coleman,Lena Education Alternative Network Charter,Marinette,,3.0,1.0,,,,,,,
+1176,0040,249.0,Colfax,Colfax High,Dunn,241.0,254.0,245.0,242.0,232.0,255.0,245.0,243.0,259.0,267.0
+1176,0400,13.0,Colfax,Academic Center,Dunn,14.0,,,,,,,,,
+1183,0040,434.0,Columbus,Columbus High,Columbia,442.0,422.0,395.0,386.0,366.0,379.0,381.0,397.0,394.0,381.0
+1204,0040,174.0,Cornell,Cornell High,Chippewa,172.0,160.0,158.0,139.0,133.0,125.0,128.0,115.0,104.0,110.0
+1218,0060,256.0,Crandon,Crandon High,Forest,259.0,260.0,250.0,220.0,235.0,228.0,227.0,241.0,229.0,239.0
+1218,0800,32.0,Crandon,Crandon Alternative Resource Sch (CARS),Forest,35.0,42.0,23.0,32.0,27.0,22.0,,,,
+1232,0040,274.0,Crivitz,Crivitz High,Marinette,266.0,248.0,245.0,233.0,219.0,215.0,215.0,202.0,197.0,205.0
+1246,0040,273.0,Cuba City,Cuba City High,Grant,265.0,274.0,286.0,272.0,253.0,246.0,234.0,247.0,244.0,241.0
+1253,0040,908.0,Cudahy,Cudahy High,Milwaukee,867.0,853.0,841.0,808.0,758.0,742.0,755.0,730.0,728.0,713.0
+1253,9417,,Cudahy,Academy of Learning Competency Based Sch,Milwaukee,2.0,,,,,,,,,
+1260,0060,395.0,Cumberland,Cumberland High,Barron,398.0,387.0,374.0,341.0,340.0,311.0,279.0,276.0,268.0,271.0
+1260,0420,,Cumberland,Island City Academy,Barron,,,,,,,16.0,19.0,20.0,15.0
+1260,0800,,Cumberland,Island City Virtual Academy,Barron,,,,,2.0,4.0,6.0,2.0,2.0,8.0
+1260,9410,2.0,Cumberland,Barron County Learning Center,Barron,2.0,,,,,,,,,
+1295,0040,280.0,Darlington Community,Darlington High,Lafayette,282.0,294.0,274.0,265.0,247.0,231.0,226.0,210.0,217.0,219.0
+1309,0040,238.0,Deerfield Community,Deerfield High,Dane,237.0,242.0,238.0,252.0,246.0,234.0,243.0,218.0,211.0,186.0
+1309,0080,7.0,Deerfield Community,Deerfield Charter High,Dane,9.0,8.0,,,,,,,,
+1316,0040,1029.0,De Forest Area,De Forest High,Dane,1032.0,1044.0,1014.0,982.0,978.0,967.0,983.0,1043.0,1060.0,1033.0
+1376,0120,1483.0,Kettle Moraine,Kettle Moraine High,Waukesha,1493.0,1490.0,1525.0,1538.0,1429.0,1337.0,1292.0,1167.0,1085.0,1021.0
+1376,0450,,Kettle Moraine,Kettle Moraine Global School for Global Leadership and Innovation,Waukesha,,,,,30.0,45.0,43.0,61.0,71.0,88.0
+1376,0460,,Kettle Moraine,School for Arts and Performance,Waukesha,,,,,55.0,108.0,135.0,145.0,161.0,170.0
+1376,0470,,Kettle Moraine,High School of Health Sciences,Waukesha,,,,,,,,58.0,113.0,153.0
+1380,0020,911.0,Delavan-Darien,Delavan-Darien High,Walworth,894.0,846.0,828.0,816.0,791.0,758.0,800.0,779.0,783.0,740.0
+1380,9401,,Delavan-Darien,Walworth Co Educ Alt High,Walworth,,,,,,12.0,11.0,8.0,3.0,6.0
+1407,0080,566.0,Denmark,Denmark High,Brown,539.0,538.0,508.0,519.0,526.0,495.0,494.0,472.0,443.0,459.0
+1407,0450,,Denmark,Denmark Community School,Brown,,,,,,20.0,21.0,21.0,25.0,24.0
+1407,0800,7.0,Denmark,Denmark Empowerment Charter School,Brown,9.0,5.0,3.0,4.0,14.0,,,,,
+1414,0020,1215.0,De Pere,De Pere High,Brown,1275.0,1237.0,1245.0,1312.0,1302.0,1324.0,1356.0,1379.0,1382.0,1428.0
+1414,0030,,De Pere,De Pere Middle,Brown,,,,,,,,,,1.0
+1421,0040,210.0,De Soto Area,De Soto High,Vernon,196.0,174.0,170.0,176.0,186.0,191.0,182.0,167.0,156.0,152.0
+1421,0810,,De Soto Area,De Soto Virtual School,Vernon,,,,,,,,,,5.0
+1428,0040,449.0,Dodgeville,Dodgeville High,Iowa,447.0,439.0,424.0,445.0,419.0,412.0,396.0,386.0,412.0,418.0
+1491,0040,173.0,Drummond Area,Drummond High,Bayfield,168.0,146.0,140.0,131.0,125.0,133.0,130.0,128.0,120.0,117.0
+1491,9400,9.0,Drummond Area,Ascend Academy,Bayfield,8.0,,,,,,,,,
+1499,0040,410.0,Durand,Durand Junior/Senior High,Pepin,404.0,395.0,382.0,370.0,348.0,336.0,328.0,309.0,310.0,296.0
+1526,0090,579.0,Northland Pines,Northland Pines High,Vilas,547.0,506.0,518.0,504.0,497.0,495.0,446.0,422.0,407.0,407.0
+1526,0410,,Northland Pines,School of Options & Applied Research High,Vilas,,,,,,,,,7.0,14.0
+1540,0040,624.0,East Troy Community,East Troy High,Walworth,621.0,606.0,574.0,583.0,562.0,521.0,532.0,547.0,547.0,583.0
+1554,0340,1788.0,Eau Claire Area,Memorial High,Eau Claire,1795.0,1769.0,1747.0,1715.0,1734.0,1706.0,1684.0,1739.0,1725.0,1726.0
+1554,0400,1641.0,Eau Claire Area,North High,Eau Claire,1554.0,1487.0,1464.0,1414.0,1357.0,1368.0,1329.0,1336.0,1326.0,1340.0
+1554,0450,4.0,Eau Claire Area,Eau Claire Alternative/Eau Claire Acad,Eau Claire,,,,,,,,,,
+1554,0580,119.0,Eau Claire Area,McKinley Charter School,Eau Claire,117.0,117.0,121.0,136.0,108.0,126.0,118.0,111.0,125.0,113.0
+1554,0800,6.0,Eau Claire Area,Second Avenue School,Eau Claire,8.0,4.0,,1.0,2.0,4.0,6.0,13.0,8.0,17.0
+1561,0040,234.0,Edgar,Edgar High,Marathon,229.0,235.0,230.0,219.0,235.0,219.0,225.0,211.0,194.0,191.0
+1568,0080,570.0,Edgerton,Edgerton High,Rock,605.0,595.0,573.0,561.0,516.0,539.0,548.0,569.0,555.0,537.0
+1582,0040,127.0,Elcho,Elcho High,Langlade,123.0,118.0,111.0,118.0,118.0,125.0,123.0,104.0,109.0,97.0
+1600,0060,208.0,Eleva-Strum,Eleva-Strum High,Trempealeau,215.0,205.0,208.0,194.0,171.0,166.0,175.0,170.0,178.0,179.0
+1631,0040,172.0,Elkhart Lake-Glenbeulah,Elkhart Lake High,Sheboygan,158.0,159.0,154.0,140.0,149.0,140.0,153.0,157.0,150.0,150.0
+1631,9204,2.0,Elkhart Lake-Glenbeulah,Northeast WI Online Charter Sch (NEWOCS),Sheboygan,2.0,2.0,,,,,,,,
+1638,0040,959.0,Elkhorn Area,Elkhorn Area High,Walworth,998.0,1002.0,988.0,946.0,913.0,857.0,853.0,900.0,894.0,884.0
+1638,0800,,Elkhorn Area,Elkhorn Options Virtual School,Walworth,,,,,,,,,9.0,33.0
+1638,9401,30.0,Elkhorn Area,Walworth Co Educ Alt High,Walworth,28.0,32.0,29.0,23.0,21.0,25.0,24.0,21.0,29.0,34.0
+1645,0040,290.0,Elk Mound Area,Elk Mound High,Dunn,316.0,307.0,320.0,320.0,306.0,329.0,315.0,329.0,342.0,317.0
+1659,0040,590.0,Ellsworth Community,Ellsworth High,Pierce,579.0,588.0,553.0,568.0,537.0,510.0,526.0,504.0,489.0,491.0
+1666,0040,127.0,Elmwood,Elmwood High,Pierce,118.0,109.0,114.0,105.0,104.0,113.0,116.0,104.0,104.0,93.0
+1673,0060,169.0,Royall,Royall Middle/High,Juneau,167.0,189.0,183.0,160.0,168.0,160.0,151.0,158.0,144.0,149.0
+1673,9405,,Royall,Juneau County Charter Sch,Juneau,,,,,1.0,,1.0,,,
+1694,0040,564.0,Evansville Community,Evansville High,Rock,555.0,573.0,539.0,509.0,527.0,500.0,512.0,548.0,553.0,549.0
+1729,0040,290.0,Fall Creek,Fall Creek High,Eau Claire,270.0,296.0,283.0,282.0,282.0,277.0,267.0,247.0,263.0,255.0
+1736,0040,115.0,Fall River,Fall River High,Columbia,111.0,119.0,140.0,163.0,169.0,178.0,155.0,143.0,137.0,132.0
+1813,0040,255.0,Fennimore Community,Fennimore High,Grant,251.0,230.0,215.0,215.0,214.0,208.0,199.0,204.0,220.0,249.0
+1855,0060,211.0,Florence,Florence High,Florence,202.0,197.0,181.0,177.0,154.0,143.0,130.0,117.0,111.0,106.0
+1862,0140,2368.0,Fond du Lac,Fond du Lac High School,Fond du Lac,2323.0,2210.0,2116.0,2062.0,2062.0,2008.0,2028.0,2094.0,2068.0,2102.0
+1862,0210,,Fond du Lac,Fond du Lac STEM Institute,Fond du Lac,,,,,,,,,,14.0
+1883,0080,922.0,Fort Atkinson,Fort Atkinson High,Jefferson,930.0,926.0,942.0,970.0,977.0,1000.0,974.0,948.0,921.0,910.0
+1883,9413,,Fort Atkinson,JEDI Virtual High School,Jefferson,,3.0,2.0,,,,,,,
+1883,9803,,Fort Atkinson,JEDI Virtual K-12,Jefferson,,,,,,,,,4.0,
+1900,0060,1362.0,Franklin Public,Franklin High,Milwaukee,1346.0,1309.0,1323.0,1390.0,1433.0,1443.0,1464.0,1459.0,1497.0,1513.0
+1900,0400,56.0,Franklin Public,Milwaukee County House of Correction,Milwaukee,71.0,63.0,57.0,61.0,59.0,54.0,41.0,28.0,47.0,53.0
+1900,9417,,Franklin Public,Academy of Learning Competency Based Sch,Milwaukee,4.0,2.0,,,,,,,,
+1939,0040,186.0,Frederic,Frederic 7-12 Sch,Polk,194.0,171.0,176.0,165.0,162.0,146.0,147.0,153.0,133.0,120.0
+1945,0060,262.0,Northern Ozaukee,Ozaukee High,Ozaukee,263.0,260.0,256.0,249.0,249.0,221.0,233.0,216.0,230.0,229.0
+1945,0400,,Northern Ozaukee,Honors High Online,Ozaukee,86.0,162.0,,,,,,,,
+1945,0850,,Northern Ozaukee,Wisconsin Virtual Learning,Ozaukee,,,212.0,193.0,168.0,218.0,201.0,183.0,159.0,154.0
+1953,0060,521.0,Freedom Area,Freedom High,Outagamie,523.0,515.0,516.0,495.0,516.0,525.0,523.0,559.0,553.0,529.0
+2009,0040,472.0,Galesville-Ettrick-Trempealeau,Galesville-Ettrick-Trempealeau High,Trempealeau,450.0,454.0,434.0,402.0,417.0,423.0,414.0,423.0,421.0,411.0
+2016,0120,170.0,North Crawford,North Crawford High,Crawford,158.0,168.0,149.0,158.0,144.0,146.0,156.0,139.0,150.0,148.0
+2058,0180,1400.0,Germantown,Germantown High,Washington,1402.0,1387.0,1428.0,1454.0,1419.0,1427.0,1408.0,1399.0,1410.0,1402.0
+2114,0120,195.0,Gibraltar Area,Gibraltar High,Door,200.0,205.0,198.0,193.0,191.0,204.0,206.0,220.0,199.0,191.0
+2128,0020,257.0,Gillett,Gillett High,Oconto,251.0,246.0,262.0,244.0,215.0,189.0,175.0,156.0,147.0,153.0
+2128,0450,,Gillett,Gillett's Occupation and Leadership Academy,Oconto,,,,,13.0,7.0,13.0,18.0,14.0,
+2135,0060,143.0,Gilman,Gilman High,Taylor,147.0,187.0,199.0,140.0,120.0,116.0,109.0,113.0,107.0,109.0
+2142,0060,74.0,Gilmanton,Gilmanton High,Buffalo,78.0,76.0,63.0,59.0,50.0,52.0,56.0,46.0,52.0,46.0
+2177,0020,1328.0,Nicolet UHS,Nicolet High,Milwaukee,1260.0,1196.0,1184.0,1107.0,1122.0,1100.0,1092.0,1114.0,1115.0,1076.0
+2198,0080,237.0,Glenwood City,Glenwood City High,Saint Croix,238.0,210.0,210.0,201.0,174.0,185.0,193.0,210.0,207.0,209.0
+2198,0400,11.0,Glenwood City,Transitional Skills Center,Saint Croix,13.0,10.0,8.0,8.0,10.0,8.0,7.0,10.0,10.0,11.0
+2205,0040,68.0,Glidden,Glidden High,Ashland,68.0,60.0,,,,,,,,
+2205,0410,,Glidden,Glidden Class ACT Charter School,Ashland,,5.0,,,,,,,,
+2212,0040,68.0,Goodman-Armstrong,Goodman High,Marinette,63.0,67.0,67.0,61.0,50.0,36.0,31.0,30.0,26.0,30.0
+2217,0040,790.0,Grafton,Grafton High,Ozaukee,875.0,838.0,868.0,819.0,773.0,779.0,745.0,748.0,763.0,749.0
+2226,0040,102.0,Granton Area,Granton High,Clark,91.0,82.0,67.0,61.0,62.0,65.0,79.0,68.0,66.0,72.0
+2226,9404,1.0,Granton Area,Clark Co Alternative Charter,Clark,1.0,,,,,,,,,
+2233,0080,301.0,Grantsburg,Grantsburg High,Burnett,305.0,310.0,318.0,317.0,299.0,296.0,272.0,257.0,258.0,261.0
+2233,0400,,Grantsburg,Insight School of Wisconsin,Burnett,245.0,407.0,709.0,575.0,655.0,367.0,429.0,454.0,454.0,465.0
+2233,0430,4.0,Grantsburg,Grantsburg Virtual School,Burnett,4.0,,,,,,,,,
+2240,0020,165.0,Black Hawk,Black Hawk High,Lafayette,157.0,145.0,139.0,146.0,130.0,116.0,111.0,102.0,115.0,105.0
+2289,0040,137.0,Green Bay Area,Bay View,Brown,119.0,136.0,106.0,83.0,86.0,85.0,83.0,38.0,23.0,70.0
+2289,0180,1480.0,Green Bay Area,East High,Brown,1447.0,1425.0,1354.0,1309.0,1318.0,1257.0,1242.0,1275.0,1284.0,1302.0
+2289,0445,,Green Bay Area Public,John Dewey Academy of Learning,Brown,,,,,22.0,42.0,60.0,53.0,66.0,61.0
+2289,0540,2236.0,Green Bay Area,Preble High,Brown,2196.0,2187.0,2194.0,2215.0,2240.0,2170.0,2177.0,2164.0,2131.0,2194.0
+2289,0600,1463.0,Green Bay Area,Southwest High,Brown,1390.0,1360.0,1297.0,1291.0,1227.0,1224.0,1176.0,1188.0,1150.0,1130.0
+2289,0720,1269.0,Green Bay Area,West High,Brown,1216.0,1096.0,1010.0,985.0,991.0,959.0,951.0,912.0,848.0,831.0
+2289,0800,,Green Bay Area Public,Dr Rosa Minoka-Hill School,Brown,,,,,,,,56.0,53.0,131.0
+2296,0060,892.0,Greendale,Greendale High,Milwaukee,913.0,941.0,938.0,966.0,937.0,925.0,937.0,935.0,936.0,927.0
+2303,0120,1126.0,Greenfield,Greenfield High,Milwaukee,1105.0,1124.0,1177.0,1289.0,1295.0,1321.0,1358.0,1304.0,1228.0,1193.0
+2310,0040,123.0,Green Lake,Green Lake High,Green Lake,123.0,107.0,97.0,103.0,89.0,105.0,104.0,96.0,98.0,82.0
+2394,0060,158.0,Greenwood,Greenwood High,Clark,142.0,140.0,123.0,113.0,108.0,120.0,120.0,137.0,138.0,131.0
+2415,0400,,Gresham,Gresham High,Shawano,116.0,113.0,83.0,78.0,81.0,72.0,75.0,83.0,94.0,105.0
+2420,0040,1279.0,Hamilton,Hamilton High,Waukesha,1262.0,1282.0,1348.0,1389.0,1412.0,1405.0,1392.0,1434.0,1497.0,1475.0
+2422,0060,366.0,Saint Croix Central,Saint Croix Central High,Saint Croix,354.0,350.0,358.0,389.0,402.0,395.0,387.0,393.0,406.0,420.0
+2422,0850,,Saint Croix Central,Saint Croix Academy of Virtual Education,Saint Croix,,,,,,,,2.0,11.0,18.0
+2436,0020,1694.0,Hartford UHS,Hartford High,Washington,1666.0,1615.0,1511.0,1494.0,1499.0,1443.0,1443.0,1423.0,1401.0,1366.0
+2450,0020,2344.0,Arrowhead UHS,Arrowhead High,Waukesha,2312.0,2234.0,2246.0,2280.0,2253.0,2275.0,2257.0,2257.0,2219.0,2190.0
+2478,0040,656.0,Hayward Community,Hayward High,Sawyer,626.0,622.0,620.0,602.0,588.0,564.0,559.0,536.0,524.0,516.0
+2478,0080,43.0,Hayward Community,Alternative School,Sawyer,27.0,13.0,,,,,,,,
+2478,0250,,Hayward Community,Northern Waters Environmental School,Sawyer,,,,,,,,5.0,10.0,10.0
+2478,0800,14.0,Hayward Community,Hayward Ctr for Individualized Learning,Sawyer,19.0,25.0,20.0,19.0,25.0,23.0,25.0,41.0,52.0,57.0
+2485,0060,203.0,Southwestern Wisconsin,Southwestern Wisconsin High,Grant,206.0,196.0,192.0,200.0,195.0,190.0,179.0,157.0,168.0,170.0
+2527,0040,100.0,Highland,Highland High,Iowa,97.0,85.0,86.0,87.0,77.0,73.0,82.0,74.0,84.0,81.0
+2534,0040,192.0,Hilbert,Hilbert High,Calumet,197.0,194.0,198.0,198.0,187.0,173.0,153.0,136.0,132.0,127.0
+2541,0060,196.0,Hillsboro,Hillsboro High,Vernon,204.0,196.0,184.0,188.0,170.0,157.0,143.0,149.0,152.0,150.0
+2562,0040,1011.0,Holmen,Holmen High,La Crosse,1049.0,1077.0,1030.0,1039.0,1056.0,1077.0,1112.0,1152.0,1172.0,1111.0
+2576,0060,371.0,Horicon,Horicon High,Dodge,344.0,325.0,321.0,291.0,267.0,255.0,233.0,234.0,227.0,224.0
+2583,0040,1152.0,Hortonville,Hortonville High,Outagamie,1169.0,1131.0,1118.0,1087.0,1076.0,1068.0,1071.0,1092.0,1088.0,1073.0
+2604,0020,1683.0,Howard-Suamico,Bay Port High,Brown,1674.0,1705.0,1689.0,1743.0,1731.0,1746.0,1810.0,1827.0,1840.0,1887.0
+2605,0060,309.0,Howards Grove,Howards Grove High,Sheboygan,305.0,329.0,321.0,326.0,312.0,284.0,271.0,268.0,266.0,272.0
+2611,0080,1722.0,Hudson,Hudson High,Saint Croix,1716.0,1653.0,1649.0,1665.0,1665.0,1697.0,1741.0,1756.0,1793.0,1804.0
+2618,0060,203.0,Hurley,Hurley High,Iron,228.0,219.0,221.0,228.0,218.0,220.0,211.0,198.0,175.0,164.0
+2618,0800,7.0,Hurley,Dr Joseph Lalich Charter Sch,Iron,3.0,5.0,14.0,,,,,,,
+2625,0040,139.0,Hustisford,Hustisford High,Dodge,133.0,143.0,136.0,122.0,113.0,117.0,110.0,125.0,132.0,138.0
+2632,0040,129.0,Independence,Independence High,Trempealeau,119.0,131.0,129.0,124.0,122.0,125.0,138.0,133.0,140.0,122.0
+2639,0040,260.0,Iola-Scandinavia,Iola-Scandinavia High,Waupaca,269.0,251.0,253.0,231.0,231.0,239.0,249.0,242.0,224.0,218.0
+2639,9408,,Iola-Scandinavia,Waupaca County Charter,Waupaca,,,,1.0,1.0,1.0,1.0,1.0,,
+2646,0040,283.0,Iowa-Grant,Iowa-Grant High,Iowa,250.0,263.0,242.0,239.0,236.0,236.0,224.0,214.0,194.0,184.0
+2660,0060,118.0,Ithaca,Ithaca High,Richland,117.0,110.0,108.0,92.0,94.0,103.0,104.0,113.0,135.0,134.0
+2695,0060,1846.0,Janesville,Craig High,Rock,1780.0,1664.0,1642.0,1638.0,1636.0,1634.0,1639.0,1628.0,1632.0,1678.0
+2695,0070,,Janesville,Edison Middle,Rock,,,,,,,,,,1.0
+2695,0280,1697.0,Janesville,Parker High,Rock,1662.0,1577.0,1509.0,1518.0,1437.0,1357.0,1361.0,1362.0,1324.0,1315.0
+2695,0400,112.0,Janesville,Rock River Charter School,Rock,163.0,166.0,163.0,130.0,154.0,158.0,187.0,197.0,201.0,223.0
+2695,0410,,Janesville,Janesville Acad for InternationalStudies,Rock,31.0,33.0,20.0,7.0,22.0,20.0,22.0,,,
+2695,0420,,Janesville,Janesville Virtual Academy,Rock,31.0,32.0,24.0,21.0,23.0,43.0,58.0,,,
+2695,0430,,Janesville,TAGOS Leadership Academy,Rock,20.0,59.0,55.0,59.0,54.0,52.0,58.0,55.0,57.0,49.0
+2695,0440,,Janesville,Community Recovery Education Service Academy,Rock,,4.0,6.0,5.0,,,,,,
+2695,0450,,Janesville,Rock University High,Rock,,,,,,,,48.0,43.0,39.0
+2695,0850,,Janesville,Youth Services Center,Rock,,,,,,,,1.0,1.0,9.0
+2695,0860,,Janesville,ARISE Virtual Academy,Rock,,,,,,,,69.0,73.0,77.0
+2702,0080,637.0,Jefferson,Jefferson High,Jefferson,607.0,587.0,567.0,583.0,596.0,580.0,623.0,635.0,658.0,656.0
+2702,9413,,Jefferson,JEDI Virtual High School,Jefferson,7.0,1.0,2.0,,,,,,,
+2702,9803,,Jefferson,JEDI Virtual K-12,Jefferson,,,,,,,3.0,3.0,5.0,5.0
+2730,0040,178.0,Johnson Creek,Johnson Creek High,Jefferson,195.0,190.0,197.0,193.0,181.0,178.0,156.0,150.0,174.0,194.0
+2737,0040,90.0,Juda,Juda High,Green,92.0,91.0,91.0,90.0,92.0,91.0,92.0,94.0,92.0,102.0
+2744,0022,256.0,Dodgeland,Dodgeland Middle/High Sch,Dodge,268.0,264.0,252.0,255.0,262.0,244.0,275.0,258.0,248.0,241.0
+2758,0040,1292.0,Kaukauna Area,Kaukauna High,Outagamie,1286.0,1243.0,1184.0,1184.0,1117.0,1100.0,1118.0,1113.0,1158.0,1178.0
+2793,0060,2435.0,Kenosha,Bradford High,Kenosha,2356.0,2266.0,2218.0,1996.0,1719.0,1641.0,1451.0,1553.0,1645.0,1546.0
+2793,0280,44.0,Kenosha,Hillcrest School,Kenosha,51.0,44.0,57.0,42.0,62.0,52.0,43.0,43.0,32.0,51.0
+2793,0405,21.0,Kenosha,Kenosha House of Corrections,Kenosha,22.0,21.0,21.0,17.0,23.0,36.0,34.0,24.0,23.0,24.0
+2793,0410,1109.0,Kenosha,Indian Trail Academy,Kenosha,1107.0,1037.0,1005.0,1292.0,1568.0,1903.0,2161.0,2218.0,2287.0,2293.0
+2793,0415,,Kenosha,KUSD-Successful Transitions for Exceptional People,Kenosha,,,,,24.0,,,,,
+2793,0450,589.0,Kenosha,Reuther Central High,Kenosha,547.0,530.0,538.0,509.0,510.0,445.0,400.0,382.0,393.0,379.0
+2793,0470,,Kenosha,Kenosha eSchool,Kenosha,26.0,56.0,89.0,87.0,87.0,,,,,
+2793,0480,347.0,Kenosha,Lakeview Technology Academy,Kenosha,336.0,369.0,375.0,356.0,391.0,421.0,427.0,432.0,438.0,432.0
+2793,0490,,Kenosha,Harborside Academy,Kenosha,111.0,223.0,332.0,433.0,447.0,450.0,446.0,435.0,449.0,432.0
+2793,0580,2416.0,Kenosha,Tremper High,Kenosha,2417.0,2427.0,2408.0,2247.0,2053.0,1797.0,1763.0,1752.0,1695.0,1675.0
+2793,0800,,Kenosha,Kenosha eSchool K-12,Kenosha,,,,,,97.0,106.0,88.0,76.0,82.0
+2800,0080,689.0,Kewaskum,Kewaskum High,Washington,701.0,744.0,727.0,661.0,633.0,596.0,589.0,614.0,605.0,624.0
+2814,0100,356.0,Kewaunee,Kewaunee High,Kewaunee,369.0,349.0,349.0,348.0,317.0,316.0,321.0,308.0,311.0,309.0
+2814,0400,2.0,Kewaunee,Lakeshore Alternative School,Kewaunee,5.0,,,,,,,,,
+2814,0490,,Kewaunee,Lakeshore Alternative School,Kewaunee,,7.0,9.0,13.0,11.0,6.0,2.0,5.0,1.0,
+2828,0040,521.0,Kiel Area,Kiel High,Manitowoc,505.0,498.0,465.0,455.0,445.0,444.0,438.0,454.0,455.0,444.0
+2828,0405,5.0,Kiel Area,Kiel eSchool,Manitowoc,2.0,4.0,7.0,2.0,3.0,1.0,1.0,5.0,,1.0
+2835,0080,1216.0,Kimberly Area,Kimberly High,Outagamie,1234.0,1303.0,1291.0,1303.0,1379.0,1352.0,1378.0,1458.0,1477.0,1531.0
+2835,0400,10.0,Kimberly Area,Caring Opportunities for Recovery Education,Outagamie,8.0,13.0,19.0,19.0,8.0,,,,,
+2835,0410,,Kimberly Area,Kornerstone School,Outagamie,,,,,20.0,37.0,40.0,37.0,,
+2842,0040,157.0,Kohler,Kohler High,Sheboygan,167.0,164.0,166.0,154.0,144.0,161.0,192.0,205.0,216.0,242.0
+2849,0020,1322.0,La Crosse,Central High,La Crosse,1276.0,1291.0,1208.0,1183.0,1136.0,1086.0,1120.0,1042.0,1072.0,1084.0
+2849,0220,1035.0,La Crosse,Logan High,La Crosse,1043.0,1004.0,954.0,938.0,890.0,843.0,816.0,804.0,778.0,721.0
+2849,0410,83.0,La Crosse,LaCrossroads Charter,La Crosse,90.0,71.0,74.0,69.0,70.0,50.0,50.0,56.0,50.0,48.0
+2849,0440,,La Crosse,7 Rivers Community High School,La Crosse,,,,,,,,40.0,31.0,40.0
+2856,0080,319.0,Ladysmith-Hawkins,Ladysmith High,Rusk,287.0,300.0,283.0,298.0,288.0,296.0,285.0,287.0,262.0,295.0
+2856,0410,,Ladysmith-Hawkins,Health Care Academy of Ladysmith-Hawkins School District,Rusk,38.0,34.0,47.0,42.0,15.0,25.0,33.0,21.0,26.0,
+2863,0040,85.0,La Farge,La Farge High,Vernon,77.0,77.0,78.0,83.0,76.0,83.0,72.0,62.0,65.0,60.0
+2863,9407,,La Farge,Vernon County Area Better Futures High,Vernon,1.0,,,,,,3.0,1.0,,1.0
+2884,0020,1376.0,Lake Geneva-Genoa City UHS,Badger High,Walworth,1359.0,1371.0,1332.0,1364.0,1466.0,1440.0,1466.0,1440.0,1435.0,1457.0
+2884,9401,27.0,Lake Geneva-Genoa City UHS,Walworth Co Educ Alt High,Walworth,26.0,19.0,22.0,33.0,24.0,33.0,25.0,28.0,26.0,24.0
+2891,0040,155.0,Lake Holcombe,Holcombe High,Chippewa,143.0,142.0,126.0,117.0,103.0,111.0,102.0,108.0,99.0,88.0
+2898,0040,434.0,Lake Mills Area,Lake Mills High,Jefferson,428.0,420.0,424.0,405.0,390.0,407.0,414.0,407.0,411.0,402.0
+2898,9413,3.0,Lake Mills Area,JEDI Virtual High School,Jefferson,5.0,1.0,1.0,,,,,,,
+2898,9803,,Lake Mills Area,JEDI Virtual K-12,Jefferson,,,,,1.0,,,,,
+2912,0020,361.0,Lancaster Community,Lancaster High,Grant,334.0,323.0,309.0,295.0,283.0,297.0,288.0,303.0,299.0,278.0
+2940,0020,79.0,Laona,Laona High,Forest,83.0,76.0,80.0,75.0,73.0,73.0,64.0,72.0,71.0,65.0
+2961,0040,146.0,Lena,Lena High,Oconto,132.0,134.0,116.0,104.0,106.0,96.0,85.0,96.0,103.0,104.0
+2961,9414,10.0,Lena,LEARN Charter School,Oconto,13.0,,,,,,,,,
+2961,9802,,Lena,Lena Education Alternative Network Charter,Oconto,,11.0,21.0,14.0,8.0,7.0,9.0,,,
+3129,0040,594.0,Little Chute Area,Little Chute High,Outagamie,573.0,553.0,542.0,543.0,490.0,475.0,445.0,402.0,388.0,369.0
+3129,0410,,Little Chute Area,Little Chute Career Pathways Academy,Outagamie,,,,,20.0,40.0,57.0,79.0,90.0,120.0
+3150,0080,555.0,Lodi,Lodi High,Columbia,535.0,532.0,522.0,513.0,516.0,524.0,507.0,516.0,508.0,494.0
+3150,0400,9.0,Lodi,Lodi Charter Sch,Columbia,11.0,11.0,9.0,9.0,10.0,10.0,5.0,,,
+3171,0060,404.0,Lomira,Lomira High,Dodge,382.0,352.0,354.0,348.0,355.0,346.0,360.0,351.0,365.0,377.0
+3206,0060,213.0,Loyal,Loyal High,Clark,196.0,195.0,180.0,176.0,181.0,174.0,174.0,170.0,167.0,142.0
+3213,0060,211.0,Luck,Luck High,Polk,219.0,196.0,180.0,169.0,140.0,133.0,112.0,131.0,139.0,133.0
+3220,0140,674.0,Luxemburg-Casco,Luxemburg-Casco High,Kewaunee,675.0,656.0,644.0,622.0,600.0,602.0,626.0,643.0,647.0,639.0
+3269,0012,99.0,Madison Metropolitan,Diploma Completion High,Dane,79.0,70.0,68.0,50.0,54.0,56.0,42.0,,,
+3269,0150,1834.0,Madison Metropolitan,East High,Dane,1745.0,1693.0,1615.0,1617.0,1584.0,1583.0,1604.0,1592.0,1584.0,1609.0
+3269,0360,2164.0,Madison Metropolitan,Memorial High,Dane,2061.0,1928.0,1890.0,1866.0,1922.0,1849.0,1834.0,1922.0,1903.0,1905.0
+3269,0400,118.0,Madison Metropolitan,Shabazz-City High,Dane,123.0,116.0,110.0,91.0,116.0,120.0,103.0,109.0,116.0,100.0
+3269,0420,1737.0,Madison Metropolitan,LaFollette High,Dane,1743.0,1645.0,1601.0,1590.0,1541.0,1473.0,1478.0,1455.0,1504.0,1541.0
+3269,0460,9.0,Madison Metropolitan,AERO Alt Ed Resource Option,Dane,13.0,5.0,10.0,9.0,33.0,240.0,242.0,301.0,310.0,257.0
+3269,0480,37.0,Madison Metropolitan,SAPAR Program High,Dane,32.0,31.0,40.0,19.0,11.0,,,,,
+3269,0700,121.0,Madison Metropolitan,Work & Learning High,Dane,126.0,120.0,114.0,110.0,101.0,,,,,
+3269,0710,,Madison Metropolitan,Sherman Middle,Dane,,,,,,,,,,1.0
+3269,0820,35.0,Madison Metropolitan,Metro School,Dane,36.0,36.0,28.0,27.0,24.0,23.0,22.0,18.0,17.0,12.0
+3269,0840,2029.0,Madison Metropolitan,West High,Dane,2053.0,2004.0,2087.0,2087.0,2086.0,2072.0,2035.0,2062.0,2111.0,2169.0
+3276,0040,299.0,Manawa,Little Wolf High,Waupaca,286.0,298.0,261.0,241.0,224.0,211.0,210.0,211.0,218.0,228.0
+3276,9408,,Manawa,Waupaca County Charter,Waupaca,2.0,,,,,,,,,1.0
+3290,0140,1459.0,Manitowoc,Lincoln High,Manitowoc,1417.0,1378.0,1341.0,1284.0,1230.0,1160.0,1173.0,1193.0,1183.0,1135.0
+3290,0280,235.0,Manitowoc,Washington Junior High,Manitowoc,190.0,213.0,180.0,168.0,193.0,199.0,199.0,185.0,181.0,151.0
+3290,0300,236.0,Manitowoc,Wilson Junior High,Manitowoc,225.0,185.0,214.0,204.0,172.0,208.0,181.0,184.0,169.0,167.0
+3290,0400,,Manitowoc,McKinley Academy,Manitowoc,41.0,42.0,52.0,54.0,56.0,53.0,56.0,62.0,61.0,55.0
+3290,0450,,Manitowoc,Manitowoc County Juvenile Detention Center,Manitowoc,,,1.0,,1.0,,,,,
+3290,9204,1.0,Manitowoc,Northeast WI Online Charter Sch (NEWOCS),Manitowoc,,,,,,,,,,
+3297,0160,450.0,Maple,Northwestern High,Douglas,475.0,479.0,467.0,436.0,434.0,428.0,440.0,454.0,442.0,451.0
+3304,0040,301.0,Marathon City,Marathon High,Marathon,273.0,269.0,262.0,248.0,256.0,265.0,212.0,241.0,237.0,242.0
+3311,0060,751.0,Marinette,Marinette High,Marinette,725.0,741.0,722.0,690.0,664.0,624.0,627.0,623.0,644.0,628.0
+3318,0100,192.0,Marion,Marion High,Waupaca,191.0,196.0,181.0,175.0,160.0,157.0,163.0,146.0,144.0,138.0
+3325,0120,282.0,Markesan,Markesan High,Green Lake,269.0,250.0,234.0,212.0,211.0,232.0,231.0,233.0,257.0,247.0
+3332,0040,354.0,Marshall,Marshall High,Dane,343.0,360.0,359.0,370.0,378.0,379.0,353.0,354.0,324.0,311.0
+3332,0400,10.0,Marshall,The Fifth Dimension,Dane,10.0,6.0,10.0,7.0,5.0,11.0,10.0,7.0,5.0,7.0
+3332,9413,,Marshall,JEDI Virtual High School,Dane,,1.0,2.0,,,,,,,
+3339,0120,1342.0,Marshfield,Marshfield High,Wood,1327.0,1345.0,1317.0,1261.0,1238.0,1213.0,1219.0,1211.0,1220.0,1185.0
+3339,0400,27.0,Marshfield,Marshfield Human Services Academy,Wood,32.0,,,,,,,,,
+3360,0060,558.0,Mauston,Mauston High,Juneau,520.0,537.0,500.0,503.0,450.0,443.0,468.0,486.0,490.0,472.0
+3360,0410,,Mauston,iLEAD Charter School,Juneau,,,,,29.0,36.0,32.0,28.0,29.0,29.0
+3360,9803,,Mauston,JEDI Virtual K-12,Juneau,,,,,,,3.0,7.0,6.0,3.0
+3367,0080,460.0,Mayville,Mayville High,Dodge,427.0,426.0,436.0,449.0,450.0,425.0,424.0,410.0,395.0,382.0
+3381,0080,675.0,McFarland,McFarland High,Dane,694.0,696.0,684.0,649.0,654.0,702.0,715.0,718.0,695.0,676.0
+3381,0430,,McFarland,Wisconsin Virtual Academy High (WIVA),Dane,,,,,,,,892.0,994.0,989.0
+3381,0450,,McFarland,Destinations Career Academy of Wisconsin High School,Dane,,,,,,,,,,68.0
+3381,0800,,McFarland,Wisconsin Virtual Academy (WIVA),Dane,,,106.0,220.0,308.0,800.0,871.0,,,
+3409,0220,749.0,Medford Area,Medford High,Taylor,750.0,711.0,689.0,670.0,650.0,625.0,633.0,655.0,676.0,678.0
+3409,9100,,Medford Area Public,Rural Virtual Academy,Taylor,,,,,,,,8.0,30.0,69.0
+3427,0060,93.0,Mellen,Mellen High,Ashland,92.0,64.0,67.0,74.0,68.0,67.0,,,,
+3427,0400,,Mellen,Mellen Technology Charter School,Ashland,,13.0,7.0,15.0,11.0,13.0,11.0,,,
+3427,0800,,Mellen,Mellen Public School,Ashland,,,,,,,61.0,72.0,77.0,79.0
+3428,0040,242.0,Melrose-Mindoro,Melrose-Mindoro High,Jackson,252.0,248.0,235.0,228.0,219.0,208.0,212.0,215.0,217.0,222.0
+3430,0100,1144.0,Menasha,Menasha High,Winnebago,1098.0,1162.0,1107.0,1040.0,986.0,978.0,970.0,983.0,1010.0,1001.0
+3430,9415,9.0,Menasha,Chance II Charter,Outagamie,19.0,,,,,,,,,
+3434,0040,369.0,Menominee Indian,Menominee Indian High,Menominee,364.0,311.0,297.0,281.0,243.0,227.0,252.0,246.0,264.0,269.0
+3437,0110,1245.0,Menomonee Falls,Menomonee Falls High,Waukesha,1177.0,1154.0,1538.0,1539.0,1549.0,1513.0,1455.0,1374.0,1336.0,1303.0
+3437,0120,367.0,Menomonee Falls,North Junior High School Campus,Waukesha,386.0,386.0,,,,,,,,
+3444,0180,1105.0,Menomonie Area,Menomonie High,Dunn,1058.0,1063.0,1019.0,993.0,999.0,999.0,979.0,998.0,962.0,958.0
+3444,0400,54.0,Menomonie Area,Lucas Charter School,Dunn,44.0,39.0,43.0,38.0,,,,,,
+3479,0060,1575.0,Mequon-Thiensville,Homestead High,Ozaukee,1536.0,1490.0,1440.0,1407.0,1362.0,1336.0,1302.0,1279.0,1310.0,1338.0
+3484,0040,64.0,Mercer,Mercer School,Iron,59.0,39.0,27.0,18.0,30.0,35.0,32.0,32.0,37.0,43.0
+3484,0450,,Mercer,Mercer Environmental Tourism Charter School,Iron,,11.0,13.0,17.0,9.0,,,,,
+3500,0140,1166.0,Merrill Area,Merrill High,Lincoln,1118.0,1142.0,1109.0,1092.0,1056.0,1014.0,948.0,884.0,855.0,832.0
+3500,0400,,Merrill Area,Merrill Adult Diploma Academy,Lincoln,20.0,6.0,4.0,17.0,11.0,11.0,6.0,22.0,16.0,17.0
+3500,0800,,Merrill Area,Bridges Virtual Academy,Lincoln,,,,,,59.0,105.0,104.0,106.0,126.0
+3549,0060,1851.0,Middleton-Cross Plains,Middleton High,Dane,1879.0,1837.0,1832.0,1855.0,1879.0,1911.0,1989.0,1964.0,2026.0,2044.0
+3549,0180,106.0,Middleton-Cross Plains,Middleton Alternative High,Dane,93.0,116.0,115.0,106.0,125.0,,,,,
+3549,0400,,Middleton-Cross Plains Area,Clark Street Community School,Dane,,,,,,114.0,94.0,115.0,97.0,87.0
+3549,0800,,Middleton-Cross Plains Area,21st Century eSchool,Dane,,,,18.0,33.0,42.0,42.0,29.0,34.0,31.0
+3612,0100,1007.0,Milton,Milton High,Rock,1055.0,1035.0,1023.0,1018.0,994.0,992.0,991.0,1022.0,1075.0,1104.0
+3619,0008,342.0,Milwaukee,Marshall High,Milwaukee,198.0,76.0,137.0,,,,,,,876.0
+3619,0012,1773.0,Milwaukee,Bay View High,Milwaukee,1471.0,1353.0,1180.0,1140.0,1085.0,1025.0,728.0,840.0,880.0,820.0
+3619,0014,1549.0,Milwaukee,Bradley Technology High,Milwaukee,1565.0,1385.0,1248.0,1228.0,1077.0,1063.0,1046.0,910.0,856.0,846.0
+3619,0016,1271.0,Milwaukee,Custer High,Milwaukee,1048.0,912.0,794.0,433.0,276.0,355.0,457.0,,,
+3619,0018,2277.0,Milwaukee,Hamilton High,Milwaukee,2245.0,1991.0,1977.0,1931.0,1658.0,1693.0,1683.0,1694.0,1734.0,1816.0
+3619,0020,1495.0,Milwaukee,King High,Milwaukee,1499.0,1520.0,1533.0,1515.0,1494.0,1471.0,1484.0,1479.0,1464.0,1529.0
+3619,0022,1082.0,Milwaukee,Madison High,Milwaukee,2.0,,,,,,,,,
+3619,0023,187.0,Milwaukee,Milwaukee School of Entrepreneurship,Milwaukee,187.0,183.0,180.0,181.0,188.0,175.0,,,,
+3619,0026,1611.0,Milwaukee,Pulaski High,Milwaukee,1755.0,1521.0,1481.0,1503.0,1331.0,1309.0,1350.0,1164.0,947.0,851.0
+3619,0027,142.0,Milwaukee,New School for Community Services,Milwaukee,156.0,140.0,150.0,156.0,153.0,167.0,167.0,158.0,168.0,148.0
+3619,0029,1580.0,Milwaukee,Riverside High,Milwaukee,1591.0,1606.0,1580.0,1601.0,1576.0,1608.0,1597.0,1598.0,1524.0,1495.0
+3619,0032,1451.0,Milwaukee,South Division High,Milwaukee,1464.0,1386.0,1267.0,1206.0,1142.0,1138.0,1216.0,1388.0,1354.0,1229.0
+3619,0033,1610.0,Milwaukee,Vincent High,Milwaukee,1500.0,1369.0,1344.0,1324.0,1268.0,1274.0,1319.0,1409.0,1193.0,991.0
+3619,0038,919.0,Milwaukee,Milwaukee High School of the Arts,Milwaukee,885.0,867.0,887.0,897.0,806.0,992.0,948.0,927.0,914.0,916.0
+3619,0047,357.0,Milwaukee,Edison School,Milwaukee,,,,,,,,,,
+3619,0048,417.0,Milwaukee,Malcolm X Academy,Milwaukee,,,,,,,,,,
+3619,0052,,Milwaukee,Morse Middle,Milwaukee,,,105.0,397.0,512.0,763.0,812.0,822.0,820.0,
+3619,0071,510.0,Milwaukee,Milwaukee School of Languages,Milwaukee,536.0,547.0,548.0,512.0,509.0,535.0,561.0,567.0,590.0,557.0
+3619,0176,,Milwaukee,Meir School,Milwaukee,,,,,,,,140.0,237.0,355.0
+3619,0201,18.0,Milwaukee,Northern Star School,Milwaukee,18.0,23.0,26.0,,,,,,,
+3619,0236,533.0,Milwaukee,Kilmer High,Milwaukee,506.0,525.0,462.0,521.0,461.0,408.0,249.0,248.0,228.0,191.0
+3619,0240,105.0,Milwaukee,Project STAY,Milwaukee,89.0,98.0,94.0,,,,,,,
+3619,0282,57.0,Milwaukee,Career Youth Development,Milwaukee,74.0,74.0,74.0,63.0,50.0,51.0,35.0,,,
+3619,0296,,Milwaukee,Lad Lake Synergy School,Milwaukee,75.0,94.0,101.0,115.0,75.0,97.0,57.0,28.0,38.0,51.0
+3619,0315,41.0,Milwaukee,Milwaukee County Youth Education Center,Milwaukee,70.0,41.0,51.0,24.0,12.0,20.0,33.0,22.0,23.0,34.0
+3619,0341,9.0,Milwaukee,Preparatory School for Global Leadership,Milwaukee,25.0,34.0,,,,,,,,
+3619,0399,244.0,Milwaukee,WI Conservatory of Lifelong Learning,Milwaukee,246.0,276.0,267.0,265.0,275.0,249.0,250.0,251.0,215.0,216.0
+3619,0402,181.0,Milwaukee,Downtown Institute of Arts & Letters (DIAL),Milwaukee,177.0,205.0,200.0,,,,,,,
+3619,0403,107.0,Milwaukee,Expressions School of the Arts,Milwaukee,,,,,,,,,,
+3619,0404,24.0,Milwaukee,Project School to Work,Milwaukee,18.0,17.0,17.0,,,,,,,
+3619,0406,141.0,Milwaukee,Marshall Montessori IB High,Milwaukee,,,,,,,,,,
+3619,0407,,Milwaukee,Carmen High School of Science and Technology,Milwaukee,83.0,140.0,179.0,195.0,233.0,287.0,324.0,348.0,366.0,358.0
+3619,0408,,Milwaukee,Foster & Williams High School of the Visual Arts,Milwaukee,202.0,162.0,143.0,,,,,,,
+3619,0409,,Milwaukee,James Madison Academic Campus,Milwaukee,1061.0,986.0,1029.0,1081.0,1128.0,1045.0,1017.0,892.0,733.0,702.0
+3619,0410,237.0,Milwaukee,Grandview High,Milwaukee,243.0,242.0,236.0,237.0,216.0,221.0,221.0,228.0,234.0,234.0
+3619,0411,,Milwaukee,Marshall Montessori International Baccalaureate High Charter,Milwaukee,201.0,215.0,294.0,316.0,292.0,,,,,
+3619,0412,265.0,Milwaukee,Advanced Language and Academic Studies,Milwaukee,263.0,239.0,249.0,254.0,243.0,255.0,247.0,,,
+3619,0413,115.0,Milwaukee,Alliance High School,Milwaukee,108.0,124.0,145.0,138.0,139.0,160.0,159.0,178.0,203.0,200.0
+3619,0414,121.0,Milwaukee,Lady Pitts,Milwaukee,95.0,122.0,78.0,84.0,,,,,,
+3619,0415,222.0,Milwaukee,DuBois High,Milwaukee,308.0,314.0,325.0,,,,,,,
+3619,0416,156.0,Milwaukee,Community High School,Milwaukee,176.0,183.0,213.0,215.0,225.0,241.0,242.0,246.0,247.0,236.0
+3619,0417,154.0,Milwaukee,Foster & Williams,Milwaukee,,,,,,,,,,
+3619,0418,161.0,Milwaukee,School of Humanities,Milwaukee,,,,,,,,,,
+3619,0419,,Milwaukee,Milwaukee African American Immersion High,Milwaukee,413.0,457.0,470.0,212.0,328.0,436.0,519.0,532.0,490.0,400.0
+3619,0421,168.0,Milwaukee,Milwaukee Learning Lab & Institute,Milwaukee,214.0,209.0,173.0,,,,,,,
+3619,0423,321.0,Milwaukee,WHS Expeditionary Learning,Milwaukee,296.0,306.0,254.0,525.0,,,,,,
+3619,0424,365.0,Milwaukee,WHS Information Technology,Milwaukee,336.0,349.0,329.0,362.0,801.0,737.0,826.0,728.0,689.0,662.0
+3619,0426,349.0,Milwaukee,"WHS Law, Education & Public Service",Milwaukee,284.0,281.0,252.0,,,,,,,
+3619,0427,209.0,Milwaukee,Milwaukee Academy of Aviation,Milwaukee,172.0,,,,,,,,,
+3619,0428,,Milwaukee,Northwest Secondary School,Milwaukee,349.0,410.0,546.0,607.0,572.0,94.0,,,,
+3619,0429,,Milwaukee,School for Urban Planning & Architecture,Milwaukee,78.0,102.0,107.0,109.0,112.0,,,,,
+3619,0430,178.0,Milwaukee,Veritas High,Milwaukee,181.0,183.0,180.0,,,,,,,
+3619,0431,,Milwaukee,WORK Institute,Milwaukee,111.0,155.0,186.0,205.0,186.0,,,,,
+3619,0432,,Milwaukee,Banner Preparatory School of Milwaukee,Milwaukee,,15.0,14.0,53.0,76.0,41.0,30.0,60.0,64.0,51.0
+3619,0433,,Milwaukee,Transition High,Milwaukee,,58.0,91.0,124.0,106.0,117.0,120.0,167.0,162.0,156.0
+3619,0434,,Milwaukee,Audubon High,Milwaukee,,99.0,153.0,209.0,282.0,299.0,335.0,355.0,365.0,371.0
+3619,0435,434.0,Milwaukee,Reagan College Prep High,Milwaukee,539.0,701.0,994.0,1079.0,1160.0,1182.0,1228.0,1266.0,1311.0,1304.0
+3619,0436,,Milwaukee,International Peace Academy,Milwaukee,,30.0,61.0,109.0,159.0,203.0,,,,
+3619,0437,,Milwaukee,Milwaukee Business High,Milwaukee,,212.0,,,,,,,,
+3619,0438,171.0,Milwaukee,Truth Institute,Milwaukee,190.0,165.0,,,,,,,,
+3619,0439,,Milwaukee,Milwaukee Academy of Aviation Science and Technology,Milwaukee,,171.0,,,,,,,,
+3619,0441,,Milwaukee,Milwaukee Community Cyber High,Milwaukee,,,,79.0,151.0,171.0,201.0,190.0,169.0,152.0
+3619,0443,,Milwaukee,Transformation Learning Community,Milwaukee,,,,,114.0,121.0,131.0,,,
+3619,0444,,Milwaukee,Carmen High School of Science and Technology--Northwest Campus,Milwaukee,,,,,,,155.0,264.0,337.0,458.0
+3619,0446,,Milwaukee,Milwaukee Excel High,Milwaukee,,,,,61.0,116.0,131.0,,,
+3619,0447,,Milwaukee,Achievement Center,Milwaukee,,,,,,3.0,16.0,45.0,,
+3619,0450,163.0,Milwaukee,Professional Learning Institute,Milwaukee,114.0,81.0,69.0,119.0,87.0,77.0,,,,
+3619,0451,,Milwaukee,Carmen High School of Science and Technology Southeast Campus,Milwaukee,,,,,,,,,,169.0
+3619,0452,245.0,Milwaukee,Genesis Sch Bus/Tech/Trade/Health/HServ,Milwaukee,262.0,234.0,214.0,202.0,,,,,,
+3619,0453,,Milwaukee,Vel Phillips School of the Arts and Media Technology,Milwaukee,,,,153.0,,,,,,
+3619,0458,167.0,Milwaukee,Project Stay Senior Institute,Milwaukee,150.0,126.0,115.0,211.0,256.0,287.0,272.0,201.0,206.0,236.0
+3619,0462,102.0,Milwaukee,CITIES Project High School,Milwaukee,98.0,101.0,,,,,,,,
+3619,0474,,Milwaukee,NOVA Tech,Milwaukee,,,,,,,,99.0,99.0,76.0
+3619,0500,234.0,Milwaukee,Metropolitan High,Milwaukee,232.0,173.0,,,,,,,,
+3619,0805,17.0,Milwaukee,St Charles Intensive Day Treatment,Milwaukee,9.0,9.0,9.0,9.0,8.0,5.0,8.0,22.0,,
+3619,0810,196.0,Milwaukee,Wisconsin Career Academy,Milwaukee,209.0,211.0,241.0,287.0,249.0,,,,,
+3619,0820,,Milwaukee,Daniels University Preparatory Academy,Milwaukee,,,,,,,21.0,,,
+3619,0825,14.0,Milwaukee,St Charles Behav Reassign Success Acad,Milwaukee,15.0,27.0,13.0,14.0,24.0,16.0,15.0,,6.0,
+3619,0830,61.0,Milwaukee,Wings Academy,Milwaukee,71.0,71.0,64.0,87.0,75.0,,,,,
+3619,0832,,Milwaukee,Special Services Sites-RCC,Milwaukee,,,33.0,,,,,,,
+3619,0840,,Milwaukee,Obama School of Career and Technical Education,Milwaukee,,,,,,,,434.0,412.0,391.0
+3619,0865,10.0,Milwaukee,Project Excel,Milwaukee,13.0,9.0,8.0,12.0,13.0,12.0,14.0,9.0,,
+3619,0870,,Milwaukee,MacDowell Montessori School K3-12,Milwaukee,,,,,,205.0,165.0,160.0,193.0,202.0
+3619,0875,,Milwaukee,Universal Academy for the College Bound,Milwaukee,,,,,,,,,132.0,284.0
+3619,0880,,Milwaukee,HAPA-Hmong Amer Peace Academy K3-12,Milwaukee,,,,,,,239.0,256.0,247.0,268.0
+3619,1049,117.0,Milwaukee,HR Educational Complex,Milwaukee,139.0,144.0,,,,,,,,
+3619,1063,114.0,Milwaukee,ASSATA,Milwaukee,110.0,107.0,110.0,105.0,109.0,111.0,130.0,122.0,120.0,108.0
+3619,1064,77.0,Milwaukee,Aurora Weier High,Milwaukee,,,,,,,,,,
+3619,1066,97.0,Milwaukee,Loyola Academy,Milwaukee,124.0,119.0,79.0,86.0,78.0,79.0,,,,
+3619,1067,41.0,Milwaukee,MATC-Project Hold,Milwaukee,73.0,52.0,,,,,,,,
+3619,1068,110.0,Milwaukee,Spotted Eagle High (MAAIC),Milwaukee,106.0,106.0,103.0,91.0,,,,,,
+3619,1069,107.0,Milwaukee,Milwaukee Spectrum School,Milwaukee,101.0,,,,,,,,,
+3619,1071,101.0,Milwaukee,Cornerstone Academy,Milwaukee,98.0,104.0,98.0,95.0,,,,,,
+3619,1072,42.0,Milwaukee,NOVA High,Milwaukee,48.0,64.0,71.0,75.0,90.0,101.0,102.0,102.0,107.0,72.0
+3619,1074,105.0,Milwaukee,Shalom High,Milwaukee,104.0,105.0,101.0,99.0,105.0,105.0,110.0,105.0,118.0,124.0
+3619,1078,5.0,Milwaukee,Lad Lake Ultra,Milwaukee,3.0,8.0,11.0,6.0,11.0,10.0,9.0,5.0,,
+3619,1085,18.0,Milwaukee,St Charles Youth & Family Ex Ed,Milwaukee,20.0,12.0,19.0,21.0,12.0,,,,,
+3619,1118,101.0,Milwaukee,El Puente High,Milwaukee,104.0,107.0,103.0,101.0,,,,,,
+3619,1202,5.0,Milwaukee,Transition Success,Milwaukee,12.0,4.0,6.0,8.0,,,,,,
+3619,1641,61.0,Milwaukee,Lad Lake Synergy North,Milwaukee,,,,,,,,,,
+3633,0080,256.0,Mineral Point,Mineral Point High,Iowa,249.0,258.0,254.0,248.0,230.0,222.0,228.0,216.0,210.0,199.0
+3647,0020,955.0,Lakeland UHS,Lakeland High,Oneida,913.0,883.0,855.0,834.0,770.0,766.0,722.0,694.0,708.0,684.0
+3654,0060,126.0,Northwood,Northwood Sch,Washburn,144.0,143.0,147.0,128.0,128.0,,,,,
+3654,0410,,Northwood,Northwood High,Washburn,,,,,,129.0,121.0,120.0,103.0,106.0
+3661,0040,363.0,Mishicot,Mishicot High,Manitowoc,374.0,362.0,336.0,326.0,286.0,286.0,264.0,280.0,260.0,238.0
+3668,0100,377.0,Mondovi,Mondovi High,Buffalo,365.0,362.0,351.0,329.0,313.0,302.0,279.0,260.0,258.0,268.0
+3675,0060,986.0,Monona Grove,Monona Grove High,Dane,960.0,940.0,926.0,938.0,913.0,921.0,921.0,939.0,975.0,991.0
+3675,0410,19.0,Monona Grove,Monona Grove Alternative High,Dane,20.0,21.0,19.0,,,,,,,
+3675,0450,,Monona Grove,Monona Grove Liberal Arts Charter School for the 21st Century,Dane,,,,22.0,26.0,24.0,31.0,35.0,32.0,43.0
+3682,0120,788.0,Monroe,Monroe High,Green,805.0,797.0,768.0,718.0,697.0,706.0,737.0,713.0,686.0,716.0
+3682,0410,43.0,Monroe,Monroe Alternative Charter School,Green,38.0,35.0,39.0,41.0,35.0,33.0,,,,
+3682,0420,270.0,Monroe,Monroe Independent Virtual Charter Sch,Green,337.0,340.0,336.0,261.0,187.0,176.0,123.0,,,
+3682,9803,,Monroe,JEDI Virtual K-12,Green,,,,,,,,,1.0,3.0
+3689,0040,265.0,Montello,Montello Jr/Sr High,Marquette,272.0,246.0,247.0,214.0,210.0,214.0,209.0,222.0,195.0,206.0
+3689,0420,,Montello,High Marq Environmental Charter School,Marquette,,,,14.0,26.0,22.0,23.0,22.0,19.0,20.0
+3689,0800,,Montello,Montello Virtual Charter School,Marquette,,,,,,,,1.0,11.0,8.0
+3696,0040,127.0,Monticello,Monticello High,Green,118.0,117.0,113.0,117.0,123.0,108.0,104.0,105.0,92.0,104.0
+3787,0100,701.0,Mosinee,Mosinee High,Marathon,694.0,698.0,700.0,674.0,657.0,671.0,663.0,652.0,677.0,632.0
+3787,9100,,Mosinee,Rural Virtual Academy,Marathon,,,,,,,,3.0,2.0,8.0
+3794,0120,633.0,Mount Horeb Area,Mount Horeb High,Dane,696.0,715.0,729.0,694.0,713.0,713.0,706.0,760.0,726.0,747.0
+3822,0060,1732.0,Mukwonago,Mukwonago High,Waukesha,1765.0,1737.0,1734.0,1697.0,1679.0,1610.0,1583.0,1595.0,1616.0,1637.0
+3850,0120,264.0,Riverdale,Riverdale High,Grant,254.0,240.0,231.0,223.0,224.0,214.0,207.0,183.0,151.0,156.0
+3857,0180,1753.0,Muskego-Norway,Muskego High,Waukesha,1720.0,1694.0,1761.0,1709.0,1675.0,1692.0,1653.0,1622.0,1626.0,1591.0
+3871,0040,276.0,Necedah Area,Necedah Middle/High,Juneau,267.0,265.0,253.0,256.0,240.0,244.0,232.0,215.0,215.0,202.0
+3871,9405,2.0,Necedah Area,Juneau County Charter Sch,Juneau,5.0,6.0,5.0,6.0,6.0,6.0,7.0,9.0,6.0,6.0
+3892,0180,2139.0,Neenah,Neenah High,Winnebago,2160.0,2115.0,2124.0,2129.0,2068.0,2027.0,1960.0,1894.0,1961.0,2006.0
+3899,0040,414.0,Neillsville,Neillsville High,Clark,375.0,357.0,341.0,308.0,317.0,321.0,321.0,320.0,291.0,285.0
+3899,9404,10.0,Neillsville,Clark Co Alternative Charter,Clark,,,,,,,,,,
+3906,0060,462.0,Nekoosa,Nekoosa High,Wood,457.0,424.0,415.0,416.0,428.0,417.0,417.0,419.0,402.0,399.0
+3920,0040,98.0,New Auburn,New Auburn Jr-Sr High,Chippewa,111.0,102.0,101.0,99.0,108.0,111.0,104.0,89.0,83.0,84.0
+3925,0050,889.0,New Berlin,Eisenhower Middle/High,Waukesha,864.0,873.0,835.0,805.0,836.0,823.0,815.0,847.0,848.0,853.0
+3925,0140,749.0,New Berlin,New Berlin Middle/High,Waukesha,749.0,755.0,775.0,782.0,815.0,813.0,833.0,802.0,750.0,745.0
+3934,0040,248.0,New Glarus,New Glarus Middle/High,Green,256.0,263.0,253.0,270.0,257.0,264.0,266.0,249.0,240.0,235.0
+3941,0080,482.0,New Holstein,New Holstein High,Calumet,465.0,459.0,423.0,389.0,360.0,342.0,342.0,339.0,366.0,351.0
+3948,0060,187.0,New Lisbon,New Lisbon Hi,Juneau,189.0,184.0,187.0,193.0,186.0,183.0,185.0,175.0,168.0,158.0
+3948,9405,5.0,New Lisbon,Juneau County Charter Sch,Juneau,4.0,2.0,5.0,3.0,2.0,3.0,4.0,5.0,4.0,2.0
+3955,0080,873.0,New London,New London High,Waupaca,868.0,825.0,837.0,838.0,794.0,781.0,767.0,697.0,640.0,631.0
+3955,0400,,New London,School of Enterprise Marketing,Waupaca,15.0,21.0,9.0,28.0,44.0,,,,,
+3955,0410,,New London,Next Generation Academy,Waupaca,,,,,,,33.0,41.0,50.0,54.0
+3955,0430,,New London,Catalyst Academy,Waupaca,,,,,,,,42.0,42.0,37.0
+3955,0850,20.0,New London,Challenging all Students to Learn Effec,Waupaca,3.0,,,,,,,,,
+3955,9408,2.0,New London,Waupaca County Charter,Waupaca,2.0,1.0,,,,,,,,
+3962,0060,899.0,New Richmond,New Richmond High,Saint Croix,883.0,870.0,861.0,842.0,842.0,867.0,845.0,917.0,927.0,910.0
+3969,0040,186.0,Niagara,Niagara High,Marinette,183.0,166.0,162.0,159.0,138.0,143.0,145.0,137.0,136.0,137.0
+3976,0020,64.0,Norris,Norris High,Waukesha,45.0,52.0,46.0,46.0,45.0,37.0,38.0,41.0,24.0,9.0
+3983,0060,366.0,North Fond du Lac,Horace Mann High,Fond du Lac,392.0,414.0,391.0,392.0,384.0,378.0,398.0,405.0,415.0,427.0
+3990,0020,239.0,Norwalk-Ontario-Wilton,Brookwood High,Monroe,232.0,216.0,197.0,188.0,191.0,195.0,196.0,213.0,218.0,214.0
+4018,0140,1971.0,Oak Creek-Franklin,Oak Creek High,Milwaukee,1989.0,2014.0,1998.0,1964.0,2004.0,1996.0,2040.0,2077.0,2088.0,2077.0
+4025,0060,236.0,Oakfield,Oakfield High,Fond du Lac,228.0,219.0,188.0,168.0,149.0,129.0,116.0,131.0,134.0,142.0
+4060,0130,1494.0,Oconomowoc Area,Oconomowoc High,Waukesha,1493.0,1418.0,1422.0,1440.0,1450.0,1450.0,1487.0,1546.0,1579.0,1654.0
+4067,0100,443.0,Oconto,Oconto High,Oconto,414.0,399.0,364.0,302.0,301.0,297.0,306.0,325.0,320.0,305.0
+4074,0200,604.0,Oconto Falls,Oconto Falls High,Oconto,623.0,611.0,585.0,563.0,556.0,530.0,522.0,506.0,509.0,506.0
+4074,0400,12.0,Oconto Falls,Falls Alternative Learning Site (FALS),Oconto,11.0,13.0,14.0,11.0,10.0,15.0,11.0,18.0,15.0,16.0
+4074,0410,,Oconto Falls,New Path,Oconto,15.0,17.0,17.0,18.0,11.0,21.0,11.0,10.0,12.0,16.0
+4088,0060,398.0,Omro,Omro High,Winnebago,409.0,405.0,392.0,387.0,381.0,375.0,395.0,409.0,401.0,392.0
+4095,0040,930.0,Onalaska,Onalaska High,La Crosse,919.0,905.0,878.0,886.0,860.0,866.0,879.0,870.0,893.0,914.0
+4137,0080,327.0,Oostburg,Oostburg High,Sheboygan,310.0,337.0,323.0,340.0,342.0,326.0,343.0,324.0,329.0,320.0
+4144,0060,1195.0,Oregon,Oregon High,Dane,1196.0,1225.0,1154.0,1136.0,1094.0,1097.0,1102.0,1096.0,1155.0,1122.0
+4151,0100,366.0,Parkview,Parkview High,Rock,355.0,356.0,349.0,331.0,303.0,294.0,282.0,253.0,263.0,253.0
+4151,0450,10.0,Parkview,Parkview Charter Sch,Rock,11.0,,,,,,,,,
+4151,9413,,Parkview,JEDI Virtual High School,Rock,,6.0,6.0,,,,,,,
+4165,0060,577.0,Osceola,Osceola High,Polk,576.0,597.0,560.0,573.0,584.0,545.0,537.0,534.0,537.0,539.0
+4165,0400,13.0,Osceola,Osceola Career Charter School,Polk,11.0,,,,,,,,,
+4179,0290,1433.0,Oshkosh Area,North High,Winnebago,1410.0,1393.0,1330.0,1296.0,1250.0,1216.0,1239.0,1237.0,1268.0,1270.0
+4179,0300,1957.0,Oshkosh Area,West High,Winnebago,1946.0,1902.0,1834.0,1816.0,1785.0,1721.0,1648.0,1647.0,1664.0,1685.0
+4179,0410,15.0,Oshkosh Area,Journeys-Project Based Learning,Winnebago,,,,,,,,,,
+4179,0420,4.0,Oshkosh Area,Jackson Street School,Winnebago,2.0,6.0,17.0,5.0,7.0,3.0,4.0,,,
+4179,0470,63.0,Oshkosh Area,East High School,Winnebago,93.0,61.0,70.0,,,,,,,
+4186,0080,302.0,Osseo-Fairchild,Osseo-Fairchild High,Trempealeau,315.0,310.0,303.0,301.0,257.0,258.0,251.0,246.0,255.0,288.0
+4207,0060,226.0,Owen-Withee,Owen-Withee High,Clark,223.0,199.0,191.0,163.0,159.0,147.0,138.0,148.0,137.0,143.0
+4221,0015,364.0,Palmyra-Eagle Area,Palmyra-Eagle High,Jefferson,377.0,346.0,349.0,336.0,311.0,332.0,277.0,320.0,318.0,283.0
+4228,0080,313.0,Pardeeville Area,Pardeeville High,Columbia,314.0,292.0,291.0,261.0,270.0,254.0,259.0,261.0,254.0,237.0
+4242,0060,315.0,Park Falls,Park Falls High,Price,305.0,283.0,,,,,,,,
+4263,0060,102.0,Beecher-Dunbar-Pembine,Pembine High,Marinette,101.0,108.0,88.0,89.0,91.0,79.0,77.0,77.0,78.0,76.0
+4270,0040,109.0,Pepin Area,Pepin High,Pepin,95.0,87.0,95.0,74.0,69.0,85.0,74.0,68.0,63.0,52.0
+4305,0100,371.0,Peshtigo,Peshtigo Middle/High,Marinette,368.0,333.0,328.0,353.0,354.0,384.0,404.0,378.0,409.0,371.0
+4312,0080,743.0,Pewaukee,Pewaukee High,Waukesha,726.0,744.0,713.0,729.0,752.0,755.0,814.0,817.0,841.0,865.0
+4330,0020,65.0,Phelps,Phelps High,Vilas,57.0,42.0,40.0,35.0,34.0,30.0,29.0,39.0,43.0,58.0
+4347,0120,342.0,Phillips,Phillips High,Price,333.0,312.0,302.0,284.0,275.0,283.0,268.0,258.0,234.0,228.0
+4368,0040,236.0,Pittsville,Pittsville High,Wood,237.0,219.0,222.0,212.0,203.0,202.0,183.0,184.0,188.0,185.0
+4368,9100,,Pittsville,Rural Virtual Academy,Wood,,,,,,,,,,1.0
+4375,0060,251.0,Tri-County Area,Tri-County High,Waushara,223.0,229.0,239.0,220.0,222.0,212.0,190.0,190.0,183.0,180.0
+4389,0060,496.0,Platteville,Platteville High,Grant,480.0,489.0,478.0,478.0,462.0,440.0,430.0,431.0,442.0,419.0
+4459,0040,121.0,Plum City,Plum City High,Pierce,136.0,131.0,111.0,109.0,91.0,90.0,100.0,100.0,90.0,81.0
+4473,0100,886.0,Plymouth,Plymouth High,Sheboygan,910.0,867.0,805.0,817.0,777.0,795.0,797.0,814.0,794.0,778.0
+4473,9204,9.0,Plymouth,Northeast WI Online Charter Sch (NEWOCS),Sheboygan,2.0,1.0,,,,,,,,
+4501,0180,823.0,Portage Community,Portage High,Columbia,815.0,828.0,820.0,791.0,771.0,784.0,745.0,788.0,806.0,803.0
+4501,0400,24.0,Portage Community,Portage Academy of Achievement,Columbia,23.0,20.0,17.0,24.0,24.0,29.0,28.0,24.0,22.0,25.0
+4501,0450,,Portage Community,Portage Virtual School,Columbia,,,,,,23.0,28.0,,,
+4508,0040,171.0,Port Edwards,John Edwards High,Wood,175.0,167.0,163.0,159.0,150.0,149.0,131.0,128.0,116.0,98.0
+4515,0100,893.0,Port Washington-Saukville,Port Washington High,Ozaukee,839.0,837.0,830.0,846.0,869.0,851.0,859.0,862.0,847.0,809.0
+4522,0100,74.0,South Shore,South Shore Jr/Sr High,Bayfield,66.0,51.0,48.0,44.0,42.0,50.0,48.0,52.0,59.0,53.0
+4529,0040,150.0,Potosi,Potosi High,Grant,156.0,145.0,146.0,134.0,127.0,128.0,110.0,113.0,116.0,114.0
+4536,0080,355.0,Poynette,Poynette High,Columbia,353.0,340.0,327.0,327.0,322.0,336.0,337.0,354.0,342.0,334.0
+4543,0060,476.0,Prairie du Chien Area,Prairie du Chien High,Crawford,473.0,429.0,409.0,400.0,367.0,364.0,358.0,334.0,348.0,340.0
+4543,0800,,Prairie du Chien Area,Mighty River Academy of Virtual Education,Crawford,,,,,,,,13.0,8.0,7.0
+4557,0040,111.0,Prairie Farm,Prairie Farm High,Barron,111.0,97.0,101.0,103.0,95.0,99.0,104.0,108.0,102.0,101.0
+4571,0060,165.0,Prentice,Prentice High,Price,163.0,155.0,157.0,152.0,140.0,141.0,130.0,136.0,128.0,136.0
+4571,9100,,Prentice,Rural Virtual Academy,Price,,,,,,,,,,3.0
+4578,0060,391.0,Prescott,Prescott High,Pierce,390.0,389.0,359.0,351.0,359.0,356.0,358.0,382.0,381.0,375.0
+4606,0040,165.0,Princeton,Princeton Sch,Green Lake,145.0,129.0,125.0,126.0,107.0,129.0,116.0,117.0,119.0,107.0
+4613,0100,1154.0,Pulaski Community,Pulaski High,Brown,1204.0,1236.0,1240.0,1205.0,1180.0,1139.0,1124.0,1102.0,1071.0,1098.0
+4620,0490,95.0,Racine,Keith R Mack Achievement Center,Racine,,,,,,,,,,
+4620,0491,1974.0,Racine,Case High,Racine,2020.0,1992.0,1984.0,1981.0,1885.0,1818.0,1929.0,2005.0,1940.0,1950.0
+4620,0492,2198.0,Racine,Horlick High,Racine,2168.0,2059.0,2093.0,2004.0,2076.0,2044.0,2058.0,1977.0,1848.0,1758.0
+4620,0494,2324.0,Racine,Park High,Racine,2275.0,2168.0,2034.0,1862.0,1766.0,1697.0,1637.0,1579.0,1522.0,1418.0
+4620,0499,287.0,Racine,Walden III High,Racine,290.0,298.0,299.0,300.0,296.0,297.0,308.0,302.0,301.0,292.0
+4620,0800,108.0,Racine,The REAL School,Racine,111.0,119.0,123.0,147.0,134.0,155.0,151.0,148.0,178.0,170.0
+4620,0801,,Racine Unified,Racine Alternative Learning,Racine,,,,,,,,,,156.0
+4634,0040,178.0,Randolph,Randolph High,Columbia,153.0,166.0,176.0,184.0,186.0,170.0,166.0,177.0,166.0,168.0
+4641,0080,364.0,Random Lake,Random Lake High,Sheboygan,347.0,332.0,330.0,314.0,297.0,310.0,279.0,293.0,290.0,298.0
+4753,0080,907.0,Reedsburg,Reedsburg Area High,Sauk,877.0,903.0,857.0,876.0,864.0,856.0,846.0,832.0,833.0,900.0
+4760,0040,289.0,Reedsville,Reedsville High,Manitowoc,281.0,269.0,259.0,244.0,237.0,216.0,216.0,211.0,199.0,204.0
+4760,9204,,Reedsville,Northeast WI Online Charter Sch (NEWOCS),Manitowoc,1.0,,,,,,,,,
+4781,0180,1101.0,Rhinelander,Rhinelander High,Oneida,1041.0,1023.0,963.0,946.0,865.0,840.0,796.0,797.0,758.0,724.0
+4781,0420,48.0,Rhinelander,Northwoods Community Secondary School,Oneida,37.0,40.0,43.0,54.0,49.0,44.0,45.0,40.0,43.0,32.0
+4795,0060,163.0,Rib Lake,Rib Lake High,Taylor,153.0,159.0,162.0,164.0,149.0,151.0,127.0,131.0,140.0,144.0
+4795,9100,,Rib Lake,Rural Virtual Academy,Taylor,,,,,,,,,1.0,4.0
+4802,0180,816.0,Rice Lake Area,Rice Lake High,Barron,814.0,773.0,788.0,797.0,769.0,722.0,706.0,685.0,687.0,672.0
+4802,0450,,Rice Lake Area,Northern Lakes Regional Academy,Barron,,,,,,45.0,44.0,43.0,40.0,40.0
+4802,9410,17.0,Rice Lake Area,Barron County Alternative School,Barron,19.0,13.0,12.0,,,,,,,
+4851,0320,524.0,Richland,Richland Center High,Richland,517.0,488.0,463.0,454.0,420.0,407.0,410.0,394.0,386.0,391.0
+4851,0400,20.0,Richland,Comprehensive Learning Center,Richland,20.0,18.0,,,,,,,,
+4851,0450,,Richland,Richland Online Academy,Richland,,,,,,,,12.0,12.0,13.0
+4865,0040,144.0,Rio Community,Rio Middle/High School,Columbia,138.0,147.0,127.0,145.0,155.0,150.0,152.0,144.0,131.0,132.0
+4872,0120,536.0,Ripon,Ripon High,Fond du Lac,496.0,477.0,496.0,504.0,512.0,512.0,522.0,502.0,451.0,482.0
+4872,0400,35.0,Ripon,Ripon Exploration & Application Charter High School,Fond du Lac,45.0,61.0,60.0,55.0,,,,,,
+4872,0430,,Ripon Area,Crossroads,Fond du Lac,,12.0,7.0,11.0,15.0,13.0,,,,
+4872,0440,,Ripon Area,Lumen Charter High,Fond du Lac,,,,,50.0,60.0,57.0,66.0,79.0,64.0
+4893,0080,1024.0,River Falls,River Falls High,Pierce,1027.0,1020.0,981.0,996.0,951.0,947.0,951.0,916.0,941.0,943.0
+4893,0410,48.0,River Falls,Renaissance Charter Academy,Pierce,62.0,46.0,42.0,42.0,47.0,41.0,45.0,35.0,33.0,24.0
+4904,0080,207.0,River Ridge,River Ridge High,Grant,211.0,210.0,192.0,183.0,167.0,154.0,133.0,136.0,149.0,160.0
+4956,0050,327.0,Rosendale-Brandon,Laconia High,Fond du Lac,329.0,316.0,320.0,306.0,310.0,320.0,300.0,302.0,286.0,294.0
+4956,0400,,Rosendale-Brandon,Cirrus Charter High,Fond du Lac,,,,,,,29.0,24.0,22.0,16.0
+4963,0040,208.0,Rosholt,Rosholt High,Portage,212.0,207.0,212.0,203.0,200.0,199.0,200.0,198.0,189.0,186.0
+4970,0030,438.0,D C Everest Area,D C Everest Junior High,Marathon,471.0,444.0,465.0,446.0,450.0,385.0,379.0,431.0,413.0,396.0
+4970,0035,1373.0,D C Everest Area,D C Everest High,Marathon,1373.0,1391.0,1366.0,1402.0,1371.0,1350.0,1292.0,1228.0,1204.0,1185.0
+4970,0200,,D C Everest Area,DC Everest Middle,Marathon,,,2.0,4.0,2.0,1.0,,,,
+4970,0400,,D C Everest Area,IDEA Charter School,Marathon,,,,,27.0,41.0,40.0,40.0,35.0,33.0
+5019,0080,388.0,Saint Croix Falls,Saint Croix Falls High,Polk,370.0,365.0,367.0,359.0,353.0,347.0,329.0,317.0,296.0,296.0
+5026,0040,579.0,Saint Francis,Saint Francis High,Milwaukee,598.0,590.0,605.0,579.0,593.0,579.0,562.0,559.0,566.0,544.0
+5054,0020,1250.0,Central/Westosha UHS,Central High,Kenosha,1228.0,1235.0,1201.0,1219.0,1172.0,1133.0,1173.0,1146.0,1153.0,1141.0
+5054,0400,,Central/Westosha UHS,Westosha Academy,Kenosha,11.0,,,,,,,,,
+5100,0120,913.0,Sauk Prairie,Sauk Prairie High,Sauk,947.0,877.0,827.0,841.0,804.0,834.0,841.0,835.0,822.0,839.0
+5124,0080,118.0,Seneca,Seneca High,Crawford,108.0,93.0,92.0,90.0,89.0,74.0,73.0,75.0,86.0,92.0
+5130,0040,241.0,Sevastopol,Sevastopol High,Door,223.0,217.0,211.0,173.0,151.0,141.0,149.0,155.0,180.0,190.0
+5138,0100,855.0,Seymour Community,Seymour High,Outagamie,826.0,818.0,796.0,753.0,716.0,711.0,697.0,710.0,710.0,714.0
+5264,0120,118.0,Shawano-Gresham,Gresham High,Shawano,,,,,,,,,,
+5264,0280,970.0,Shawano-Gresham,Shawano High,Shawano,950.0,889.0,949.0,908.0,846.0,846.0,813.0,786.0,804.0,820.0
+5271,0280,1690.0,Sheboygan Area,North High,Sheboygan,1609.0,1552.0,1585.0,1628.0,1543.0,1527.0,1505.0,1472.0,1447.0,1465.0
+5271,0340,1519.0,Sheboygan Area,South High,Sheboygan,1484.0,1395.0,1356.0,1342.0,1153.0,1139.0,1047.0,1091.0,1131.0,1052.0
+5271,0410,128.0,Sheboygan Area,Riverview Academy Charter,Sheboygan,130.0,133.0,143.0,,,,,,,
+5271,0420,,Sheboygan Area,SUCCESS Academy Charter School for Expelled and Withdrawn Students,Sheboygan,13.0,14.0,,,,,,,,
+5271,0430,,Sheboygan Area,The Etude School,Sheboygan,79.0,106.0,108.0,124.0,,,,,,
+5271,0440,,Sheboygan Area,Face to Face with Online Learning,Sheboygan,23.0,71.0,100.0,109.0,115.0,123.0,128.0,127.0,116.0,119.0
+5271,0450,,Sheboygan Area,Central High,Sheboygan,,,,,184.0,202.0,207.0,206.0,214.0,201.0
+5271,0451,,Sheboygan Area,IDEAS Academy,Sheboygan,,,,,127.0,129.0,128.0,145.0,160.0,151.0
+5278,0040,602.0,Sheboygan Falls,Sheboygan Falls High,Sheboygan,596.0,545.0,546.0,557.0,554.0,539.0,549.0,540.0,537.0,532.0
+5306,0040,178.0,Shell Lake,Shell Lake Jr/Sr High,Washburn,182.0,176.0,181.0,195.0,195.0,187.0,186.0,175.0,190.0,185.0
+5348,0040,242.0,Shiocton,Shiocton High,Outagamie,226.0,223.0,226.0,216.0,213.0,211.0,237.0,244.0,223.0,220.0
+5348,0450,,Shiocton,Shiocton International Leadership Academy,Outagamie,,,,,40.0,35.0,,,,
+5355,0080,683.0,Shorewood,Shorewood High,Milwaukee,637.0,614.0,621.0,615.0,634.0,665.0,652.0,663.0,672.0,650.0
+5355,0400,10.0,Shorewood,New Horizons for Learning,Milwaukee,17.0,15.0,17.0,24.0,22.0,24.0,17.0,22.0,20.0,24.0
+5362,0080,135.0,Shullsburg,Shullsburg High,Lafayette,137.0,128.0,116.0,97.0,93.0,83.0,96.0,98.0,113.0,122.0
+5376,0040,168.0,Siren,Siren High,Burnett,175.0,164.0,159.0,148.0,133.0,130.0,131.0,130.0,129.0,143.0
+5390,0080,943.0,Slinger,Slinger High,Washington,943.0,936.0,892.0,910.0,924.0,938.0,972.0,963.0,1020.0,1048.0
+5397,0800,109.0,Solon Springs,Solon Springs School,Douglas,110.0,108.0,117.0,108.0,110.0,97.0,95.0,81.0,75.0,72.0
+5432,0040,434.0,Somerset,Somerset High,Saint Croix,440.0,450.0,460.0,488.0,479.0,453.0,488.0,500.0,488.0,471.0
+5439,0120,1239.0,South Milwaukee,South Milwaukee High,Milwaukee,1234.0,1213.0,1205.0,1201.0,1169.0,1135.0,1144.0,1145.0,1162.0,1160.0
+5439,9417,,South Milwaukee,Academy of Learning Competency Based Sch,Milwaukee,5.0,8.0,,,,,,,,
+5457,0220,410.0,Southern Door County,Southern Door High,Door,442.0,419.0,407.0,404.0,387.0,389.0,364.0,364.0,339.0,321.0
+5460,0160,809.0,Sparta Area,Sparta High,Monroe,825.0,749.0,742.0,704.0,710.0,676.0,700.0,721.0,746.0,728.0
+5460,0410,36.0,Sparta Area,Sparta High Point School,Monroe,42.0,39.0,42.0,36.0,33.0,33.0,28.0,32.0,23.0,26.0
+5460,0800,52.0,Sparta Area,Sparta Area Independent Learning School,Monroe,48.0,63.0,59.0,48.0,29.0,33.0,29.0,27.0,30.0,27.0
+5467,0040,233.0,Spencer,Spencer High,Marathon,218.0,200.0,197.0,207.0,219.0,225.0,231.0,243.0,228.0,228.0
+5467,9100,,Spencer,Rural Virtual Academy,Marathon,,,,,,,,1.0,,3.0
+5474,0080,521.0,Spooner Area,Spooner High,Washburn,501.0,468.0,439.0,428.0,404.0,392.0,385.0,358.0,342.0,351.0
+5474,0850,,Spooner Area,Spooner Area Virtual Education Academy,Washburn,,,,,,,3.0,4.0,,
+5523,0110,543.0,River Valley,River Valley High,Sauk,522.0,493.0,500.0,491.0,462.0,450.0,456.0,452.0,422.0,439.0
+5586,0080,219.0,Spring Valley,Spring Valley High,Pierce,218.0,211.0,217.0,214.0,201.0,199.0,199.0,203.0,200.0,209.0
+5593,0080,314.0,Stanley-Boyd Area,Stanley-Boyd High,Chippewa,309.0,316.0,297.0,308.0,294.0,271.0,291.0,296.0,314.0,297.0
+5607,0010,253.0,Stevens Point Area,Benjamin Franklin Junior High,Portage,240.0,295.0,257.0,304.0,287.0,269.0,248.0,257.0,281.0,283.0
+5607,0240,285.0,Stevens Point Area,P J Jacobs Junior High,Portage,270.0,246.0,239.0,260.0,231.0,229.0,253.0,253.0,235.0,231.0
+5607,0270,1748.0,Stevens Point Area,Stevens Point Area High,Portage,1658.0,1594.0,1523.0,1519.0,1635.0,1596.0,1562.0,1543.0,1519.0,1543.0
+5607,0310,155.0,Stevens Point Area,Charles F Fernandez Center Alt Learning,Portage,154.0,128.0,111.0,93.0,102.0,100.0,103.0,83.0,72.0,53.0
+5607,0320,5.0,Stevens Point Area,Juvenile Detention,Portage,3.0,5.0,3.0,2.0,2.0,2.0,2.0,1.0,2.0,3.0
+5607,0360,16.0,Stevens Point Area,CARE,Portage,16.0,,14.0,12.0,11.0,15.0,11.0,11.0,13.0,12.0
+5607,0400,69.0,Stevens Point Area,Wisconsin Rivers Community Charter,Portage,75.0,51.0,64.0,58.0,,,,,,
+5614,0040,79.0,Stockbridge,Stockbridge High,Calumet,82.0,74.0,70.0,68.0,55.0,50.0,53.0,61.0,55.0,58.0
+5621,0140,1174.0,Stoughton Area,Stoughton High,Dane,1133.0,1087.0,1070.0,1071.0,1065.0,1056.0,1069.0,1059.0,1035.0,1010.0
+5621,9803,,Stoughton Area,JEDI Virtual K-12,Dane,,,,,,14.0,16.0,19.0,12.0,13.0
+5628,0040,258.0,Stratford,Stratford Jr/Sr High,Marathon,260.0,259.0,264.0,262.0,265.0,282.0,302.0,300.0,305.0,321.0
+5628,9100,,Stratford,Rural Virtual Academy,Marathon,,,,,,,,,,1.0
+5642,0010,524.0,Sturgeon Bay,Sturgeon Bay High,Door,487.0,475.0,437.0,429.0,398.0,393.0,381.0,372.0,387.0,395.0
+5656,0100,1737.0,Sun Prairie Area,Sun Prairie High,Dane,1735.0,1736.0,1731.0,1355.0,1409.0,1467.0,1505.0,1542.0,1617.0,1702.0
+5656,0220,,Sun Prairie Area,Cardinal Heights Upper Middle,Dane,,,,532.0,474.0,518.0,550.0,564.0,628.0,566.0
+5656,0410,29.0,Sun Prairie Area,Sun Prairie Alternative High School,Dane,54.0,71.0,88.0,79.0,78.0,69.0,79.0,84.0,81.0,101.0
+5656,9413,,Sun Prairie Area,JEDI Virtual High School,Dane,,,8.0,8.0,,,,,,
+5656,9803,,Sun Prairie Area,JEDI Virtual K-12,Dane,,,,,11.0,16.0,8.0,8.0,8.0,7.0
+5663,0280,1651.0,Superior,Superior High,Douglas,1627.0,1553.0,1480.0,1449.0,1418.0,1424.0,1353.0,1346.0,1328.0,1281.0
+5670,0080,205.0,Suring,Suring High,Oconto,190.0,203.0,187.0,183.0,146.0,135.0,128.0,119.0,123.0,121.0
+5726,0040,217.0,Thorp,Thorp High,Clark,224.0,210.0,209.0,207.0,184.0,181.0,196.0,185.0,184.0,194.0
+5733,0080,234.0,Three Lakes,Three Lakes High,Oneida,227.0,231.0,217.0,223.0,188.0,185.0,180.0,159.0,149.0,153.0
+5740,0040,109.0,Tigerton,Tigerton High,Shawano,108.0,108.0,97.0,96.0,92.0,89.0,83.0,80.0,80.0,69.0
+5747,0180,1112.0,Tomah Area,Tomah High,Monroe,1079.0,1013.0,1016.0,957.0,911.0,919.0,879.0,891.0,906.0,869.0
+5747,0800,,Tomah Area,Robert Kupper Learning Center,Monroe,,,,64.0,63.0,52.0,55.0,46.0,41.0,41.0
+5754,0200,536.0,Tomahawk,Tomahawk High,Lincoln,536.0,533.0,552.0,521.0,481.0,463.0,448.0,452.0,418.0,402.0
+5757,0040,187.0,Flambeau,Flambeau High,Rusk,192.0,207.0,222.0,205.0,197.0,191.0,181.0,165.0,181.0,168.0
+5757,0410,6.0,Flambeau,Whitetail Academy,Rusk,11.0,9.0,6.0,10.0,8.0,7.0,12.0,5.0,,
+5757,0800,14.0,Flambeau,Flambeau Charter School,Rusk,11.0,8.0,18.0,9.0,5.0,5.0,4.0,,,
+5810,0040,154.0,Turtle Lake,Turtle Lake High,Barron,159.0,161.0,145.0,148.0,145.0,123.0,117.0,123.0,115.0,114.0
+5810,0810,,Turtle Lake,Laker Online,Barron,,,,,,,,,,2.0
+5810,9410,,Turtle Lake,North Star Academy,Barron,,,,4.0,,4.0,5.0,3.0,2.0,5.0
+5824,0080,748.0,Two Rivers,Two Rivers High,Manitowoc,724.0,682.0,649.0,599.0,545.0,534.0,526.0,512.0,481.0,476.0
+5824,0810,,Two Rivers Public,Lighthouse Learning Academy,Manitowoc,,,,,,,,,,21.0
+5824,9204,,Two Rivers,Northeast WI Online Charter Sch (NEWOCS),Manitowoc,2.0,,,,,,,,,
+5852,0020,782.0,Union Grove UHS,Union Grove High,Racine,774.0,833.0,867.0,915.0,977.0,971.0,1018.0,1020.0,1028.0,1012.0
+5866,0060,406.0,Valders Area,Valders High,Manitowoc,409.0,419.0,424.0,381.0,374.0,346.0,352.0,345.0,357.0,364.0
+5901,0100,1492.0,Verona Area,Verona Area High,Dane,1442.0,1447.0,1456.0,1500.0,1525.0,1546.0,1514.0,1507.0,1507.0,1507.0
+5901,0410,,Verona Area,Exploration Academy,Dane,,,,,,,58.0,71.0,74.0,69.0
+5960,0020,147.0,Kickapoo Area,Kickapoo High,Vernon,147.0,144.0,142.0,136.0,143.0,139.0,143.0,147.0,161.0,160.0
+5960,9407,2.0,Kickapoo Area,Vernon County Area Better Futures High,Vernon,1.0,1.0,2.0,,1.0,1.0,,,,1.0
+5985,0220,357.0,Viroqua Area,Viroqua High,Vernon,332.0,336.0,335.0,357.0,349.0,334.0,327.0,310.0,315.0,313.0
+5985,0410,17.0,Viroqua Area,Laurel High,Vernon,23.0,31.0,30.0,31.0,26.0,35.0,34.0,40.0,35.0,36.0
+5985,9407,5.0,Viroqua Area,Vernon County Area Better Futures High,Vernon,5.0,4.0,5.0,1.0,5.0,2.0,9.0,6.0,3.0,7.0
+5992,0080,200.0,Wabeno Area,Wabeno High,Forest,195.0,193.0,183.0,158.0,147.0,154.0,142.0,138.0,145.0,123.0
+6013,0020,585.0,Big Foot UHS,Big Foot High,Walworth,565.0,560.0,528.0,520.0,532.0,532.0,519.0,523.0,499.0,476.0
+6013,9401,7.0,Big Foot UHS,Walworth Co Educ Alt High,Walworth,9.0,12.0,9.0,4.0,11.0,10.0,16.0,16.0,10.0,6.0
+6027,0040,258.0,Washburn,Washburn High,Bayfield,244.0,230.0,204.0,199.0,171.0,170.0,184.0,185.0,198.0,183.0
+6069,0040,33.0,Washington,Washington Island High,Door,34.0,32.0,24.0,30.0,28.0,24.0,16.0,16.0,24.0,24.0
+6083,0020,1068.0,Waterford UHS,Waterford High,Racine,1091.0,1092.0,1071.0,1055.0,1050.0,1065.0,1035.0,1090.0,1108.0,1083.0
+6118,0040,298.0,Waterloo,Waterloo High,Jefferson,283.0,261.0,274.0,272.0,270.0,275.0,283.0,279.0,281.0,270.0
+6125,0140,1354.0,Watertown,Watertown High,Jefferson,1340.0,1321.0,1345.0,1350.0,1314.0,1252.0,1293.0,1264.0,1265.0,1313.0
+6125,0430,,Watertown Unified,Endeavor Charter School,Jefferson,,,,,,,,38.0,51.0,39.0
+6174,0290,1265.0,Waukesha,North High,Waukesha,1251.0,1174.0,1248.0,1204.0,1188.0,1162.0,1122.0,1117.0,1152.0,1216.0
+6174,0415,,Waukesha,Waukesha Transition Academy,Waukesha,,,,,,,41.0,43.0,39.0,37.0
+6174,0430,,Waukesha,Waukesha Engineering Preparatory Academy,Waukesha,34.0,,49.0,69.0,72.0,100.0,122.0,151.0,175.0,181.0
+6174,0450,,Waukesha,Waukesha Academy of Health Professions,Waukesha,112.0,,141.0,151.0,183.0,192.0,195.0,169.0,149.0,150.0
+6174,0460,1353.0,Waukesha,South High,Waukesha,1210.0,1307.0,1170.0,1145.0,1136.0,1111.0,1053.0,1063.0,1073.0,1006.0
+6174,0470,739.0,Waukesha,iQ Academies of Wisconsin,Waukesha,841.0,736.0,777.0,667.0,585.0,661.0,676.0,546.0,462.0,479.0
+6174,0490,85.0,Waukesha,Harvey Philip Alternative Charter School,Waukesha,87.0,16.0,77.0,67.0,59.0,93.0,97.0,123.0,82.0,69.0
+6174,0495,3.0,Waukesha,Project Change-A Recovery School,Waukesha,2.0,,3.0,3.0,4.0,3.0,4.0,,,
+6174,0560,1548.0,Waukesha,West High,Waukesha,1518.0,1468.0,1395.0,1307.0,1270.0,1232.0,1227.0,1178.0,1208.0,1176.0
+6181,0040,1047.0,Waunakee Community,Waunakee High,Dane,1115.0,1125.0,1141.0,1188.0,1136.0,1163.0,1163.0,1161.0,1210.0,1248.0
+6195,0140,860.0,Waupaca,Waupaca High,Waupaca,862.0,849.0,805.0,804.0,769.0,719.0,724.0,688.0,656.0,675.0
+6195,9408,2.0,Waupaca,Waupaca County Charter,Waupaca,4.0,4.0,4.0,,,,,,,
+6216,0200,738.0,Waupun,Waupun Area High,Fond du Lac,696.0,687.0,686.0,638.0,632.0,594.0,563.0,557.0,545.0,548.0
+6216,0400,10.0,Waupun,Waupun Alternative High,Fond du Lac,13.0,,,,,,,,,
+6223,0200,,Wausau,John Muir Middle,Marathon,,,,,,,,1.0,,
+6223,0205,4.0,Wausau,Horace Mann Middle,Marathon,2.0,2.0,5.0,1.0,,,,,,
+6223,0290,8.0,Wausau,New Horizons Charter School,Marathon,,,,,,,,,,
+6223,0360,1322.0,Wausau,East High,Marathon,1267.0,1257.0,1195.0,1162.0,1152.0,1060.0,1075.0,1020.0,1029.0,1027.0
+6223,0380,1709.0,Wausau,West High,Marathon,1696.0,1599.0,1498.0,1431.0,1395.0,1391.0,1375.0,1358.0,1338.0,1308.0
+6223,0400,,Wausau,Enrich Excel Achieve Learning Academy,Marathon,28.0,39.0,48.0,50.0,58.0,53.0,56.0,61.0,64.0,69.0
+6223,0410,,Wausau,Wausau Engineering and Global Leadership Academy,Marathon,,,,34.0,48.0,80.0,71.0,70.0,84.0,67.0
+6223,0800,,Wausau,Wausau Area Virtual Education,Marathon,,,,,,,,,5.0,22.0
+6230,0100,191.0,Wausaukee,Wausaukee High,Marinette,195.0,180.0,164.0,167.0,158.0,155.0,157.0,154.0,163.0,159.0
+6237,0140,494.0,Wautoma Area,Wautoma High,Waushara,478.0,464.0,460.0,419.0,422.0,411.0,397.0,405.0,423.0,423.0
+6237,9413,,Wautoma Area,JEDI Virtual High School,Waushara,,,3.0,2.0,,,,,,
+6244,0020,1158.0,Wauwatosa,East High,Milwaukee,1122.0,1143.0,1179.0,1186.0,1170.0,1173.0,1153.0,1139.0,1148.0,1088.0
+6244,0190,6.0,Wauwatosa,Plank Road Complex,Milwaukee,5.0,6.0,13.0,43.0,64.0,78.0,43.0,104.0,74.0,67.0
+6244,0280,995.0,Wauwatosa,West High,Milwaukee,994.0,987.0,1020.0,1014.0,1038.0,1032.0,1031.0,1056.0,1041.0,1071.0
+6244,0400,,Wauwatosa,Tosa School of the Trades,Milwaukee,,,15.0,28.0,16.0,,,,,
+6244,0430,,Wauwatosa,Wauwatosa Virtual Academy,Milwaukee,,,,,,,14.0,53.0,98.0,81.0
+6251,0040,95.0,Wauzeka-Steuben,Wauzeka High,Crawford,93.0,96.0,101.0,98.0,97.0,97.0,93.0,108.0,104.0,98.0
+6293,0080,275.0,Webster,Webster High,Burnett,277.0,239.0,248.0,238.0,247.0,223.0,223.0,206.0,182.0,198.0
+6300,0020,1608.0,West Allis,Central High,Milwaukee,1529.0,1459.0,1365.0,1398.0,1369.0,1343.0,1389.0,1412.0,1411.0,1299.0
+6300,0340,1538.0,West Allis,Nathan Hale High,Milwaukee,1523.0,1591.0,1637.0,1619.0,1650.0,1636.0,1625.0,1705.0,1571.0,1497.0
+6300,0410,,West Allis-West Milwaukee,Shared Journeys,Milwaukee,,,,,,16.0,14.0,20.0,21.0,15.0
+6300,0470,26.0,West Allis,Academy of Learning Competency Based Sch,Milwaukee,,,,,,,,,,
+6300,0490,86.0,West Allis,James E Dottke Alternative,Milwaukee,71.0,86.0,84.0,90.0,158.0,156.0,222.0,199.0,178.0,166.0
+6300,9417,,West Allis,Academy of Learning Competency Based Sch,Milwaukee,30.0,25.0,,,,,,,,
+6307,0050,1247.0,West Bend,East High,Washington,1207.0,1184.0,1188.0,1137.0,1152.0,1146.0,1161.0,1159.0,1152.0,1114.0
+6307,0200,1203.0,West Bend,West High,Washington,1191.0,1182.0,1202.0,1180.0,1168.0,1165.0,1144.0,1143.0,1155.0,1180.0
+6307,0400,1.0,West Bend,Washington Street School,Washington,4.0,1.0,,5.0,5.0,13.0,5.0,5.0,6.0,1.0
+6307,0430,,West Bend,Pathways,Washington,,,,,,,12.0,27.0,34.0,31.0
+6321,0200,373.0,Westby Area,Westby High,Vernon,358.0,348.0,324.0,340.0,325.0,308.0,331.0,327.0,349.0,359.0
+6321,9407,1.0,Westby Area,Vernon County Area Better Futures High,Vernon,1.0,4.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,3.0
+6328,0120,774.0,West De Pere,West De Pere High,Brown,776.0,804.0,816.0,826.0,826.0,817.0,820.0,840.0,872.0,885.0
+6328,0400,,West De Pere,Phantom Knight School of Opportunity,Brown,8.0,14.0,22.0,28.0,22.0,19.0,19.0,22.0,27.0,27.0
+6335,0100,422.0,Westfield,Pioneer Westfield High,Marquette,395.0,384.0,400.0,365.0,360.0,344.0,336.0,351.0,349.0,319.0
+6354,0100,119.0,Weston,Weston High,Sauk,120.0,108.0,88.0,95.0,89.0,94.0,91.0,91.0,88.0,85.0
+6370,0080,533.0,West Salem,West Salem High,La Crosse,535.0,556.0,538.0,554.0,546.0,539.0,572.0,565.0,541.0,543.0
+6384,0100,378.0,Weyauwega-Fremont,Weyauwega High,Waupaca,391.0,359.0,344.0,342.0,307.0,285.0,289.0,251.0,271.0,256.0
+6384,9408,1.0,Weyauwega-Fremont,Waupaca County Charter,Waupaca,,1.0,,,,1.0,2.0,2.0,2.0,1.0
+6410,0040,76.0,Weyerhaeuser Area,Weyerhaeuser High,Rusk,91.0,72.0,68.0,,,,,,,
+6419,0100,964.0,Whitefish Bay,Whitefish Bay High,Milwaukee,934.0,890.0,897.0,890.0,952.0,995.0,981.0,985.0,954.0,924.0
+6426,0120,257.0,Whitehall,Whitehall High,Trempealeau,273.0,250.0,244.0,258.0,227.0,245.0,226.0,215.0,218.0,200.0
+6440,0040,103.0,White Lake,White Lake High,Langlade,97.0,93.0,93.0,88.0,89.0,76.0,79.0,67.0,64.0,53.0
+6461,0020,,Whitewater Unified,Whitewater Middle,Walworth,,,,,,,,,,1.0
+6461,0140,651.0,Whitewater,Whitewater High,Walworth,630.0,662.0,653.0,621.0,611.0,581.0,549.0,554.0,584.0,584.0
+6461,9413,3.0,Whitewater,JEDI Virtual High School,Walworth,2.0,1.0,1.0,,,,,,,
+6461,9803,,Whitewater Unified,JEDI Virtual K-12,Walworth,,,,,,,13.0,22.0,,32.0
+6470,0100,943.0,Whitnall,Whitnall High,Milwaukee,941.0,937.0,922.0,885.0,834.0,821.0,816.0,801.0,831.0,825.0
+6475,0060,235.0,Wild Rose,Wild Rose High,Waushara,242.0,247.0,230.0,222.0,211.0,199.0,184.0,169.0,165.0,188.0
+6482,0040,179.0,Williams Bay,Williams Bay High,Walworth,175.0,180.0,178.0,148.0,153.0,145.0,147.0,168.0,166.0,184.0
+6482,9401,3.0,Williams Bay,Walworth Co Educ Alt High,Walworth,4.0,,5.0,,,,4.0,,3.0,
+6545,0020,1081.0,Wilmot UHS,Wilmot High,Kenosha,1141.0,1166.0,1158.0,1136.0,1119.0,1101.0,1085.0,1109.0,1106.0,1086.0
+6608,0060,529.0,Winneconne Community,Winneconne High,Winnebago,522.0,536.0,522.0,511.0,483.0,485.0,478.0,474.0,486.0,485.0
+6615,0080,130.0,Winter,Winter High,Sawyer,135.0,117.0,115.0,103.0,88.0,83.0,81.0,73.0,76.0,70.0
+6615,0400,,Winter,Pathways Charter School,Sawyer,,7.0,9.0,,,,,,,
+6678,0100,612.0,Wisconsin Dells,Wisconsin Dells High,Sauk,604.0,587.0,580.0,575.0,552.0,529.0,493.0,460.0,421.0,426.0
+6678,0400,14.0,Wisconsin Dells,Kilbourn Academy,Sauk,20.0,,,,,,,,,
+6685,0050,260.0,Wisconsin Rapids,East Junior High,Wood,293.0,254.0,257.0,400.0,404.0,420.0,370.0,391.0,391.0,350.0
+6685,0160,1384.0,Wisconsin Rapids,Lincoln High,Wood,1350.0,1377.0,1298.0,1284.0,1161.0,1157.0,1173.0,1143.0,1164.0,1146.0
+6685,0290,187.0,Wisconsin Rapids,West Junior High,Wood,219.0,149.0,195.0,,,,,,,
+6685,0430,107.0,Wisconsin Rapids,River Cities High,Wood,100.0,101.0,95.0,89.0,94.0,96.0,92.0,91.0,96.0,78.0
+6685,9416,37.0,Wisconsin Rapids,Central Cities Health Institute,Wood,39.0,46.0,43.0,47.0,43.0,32.0,,,,
+6692,0140,456.0,Wittenberg-Birnamwood,Wittenberg-Birnamwood High,Shawano,458.0,446.0,427.0,419.0,410.0,394.0,367.0,350.0,315.0,322.0
+6713,0080,145.0,Wonewoc-Union Center,Wonewoc-Center High,Juneau,132.0,131.0,107.0,111.0,120.0,105.0,107.0,95.0,105.0,102.0
+6713,9405,,Wonewoc-Union Center,Juneau County Charter Sch,Juneau,1.0,2.0,2.0,,1.0,2.0,2.0,1.0,1.0,
+6734,0040,451.0,Wrightstown Community,Wrightstown High,Brown,461.0,460.0,456.0,461.0,467.0,461.0,461.0,457.0,468.0,501.0
+8001,8115,,Seeds of Health Inc,Tenor High School,Milwaukee,,,,,,,,,,236.0
+8001,8124,,Seeds of Health Inc,Veritas High,Milwaukee,,,,,,,,,,252.0
+8106,1251,121.0,Milwaukee Academy of Science,Milwaukee Academy of Science,Milwaukee,167.0,147.0,170.0,190.0,182.0,193.0,193.0,193.0,188.0,200.0
+8115,0400,163.0,Tenor High School,Tenor High School,Milwaukee,164.0,206.0,196.0,187.0,199.0,208.0,223.0,235.0,248.0,
+8117,0400,131.0,Maasai Institute,Maasai Institute,Milwaukee,176.0,,,,,,,,,
+8119,0400,42.0,Inland Seas School of Expeditionary Lrng,Inland Seas School of Expeditionary Lrng,Milwaukee,119.0,113.0,96.0,,,,,,,
+8124,0400,,Veritas High,Veritas High,Milwaukee,,,,227.0,234.0,241.0,246.0,251.0,253.0,
+8127,0400,,CEO Leadership Academy,CEO Leadership Academy,Milwaukee,,,,,165.0,181.0,200.0,262.0,298.0,297.0
+8131,0400,,Escuela Verde,Escuela Verde,Milwaukee,,,,,,46.0,55.0,73.0,100.0,102.0
