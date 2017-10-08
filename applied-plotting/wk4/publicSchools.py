@@ -2,6 +2,7 @@ from functools import reduce
 import os
 import pandas as pd
 import numpy as np
+from common import reduceArrayOfDfs, addYTYChangeToDf, addGrowthRate
 
 def getFiles():
     dataDir = './data/public-schools/'
@@ -9,7 +10,7 @@ def getFiles():
 
 def csvToDataFrame(filePath):
     data = pd.read_csv(filePath, dtype={'SCHOOL_CODE': np.str, 'DISTRICT_CODE': np.str}).dropna(subset=['SCHOOL_CODE'])
-    year = data.loc[data.index[0], 'SCHOOL_YEAR']
+    year = data.loc[data.index[0], 'SCHOOL_YEAR'][:-3]
 
     data = data \
         .where( \
@@ -26,32 +27,14 @@ def csvToDataFrame(filePath):
             'DISTRICT_NAME': 'DistrictName',
             'SCHOOL_CODE': 'SchoolCode',
             'SCHOOL_NAME': 'SchoolName',
-            'STUDENT_COUNT': year[:-3]
+            'STUDENT_COUNT': year
         }) \
         .set_index(['DistrictCode', 'SchoolCode']) \
         .dropna()
-    print('Loaded {} data for {}'.format(data.shape, filePath))
+    # print('Loaded {} data for {}'.format(data.shape, filePath))
     return data
 
-def reduceData(cum, curr):
-    if cum is None:
-        return curr
-    return pd.merge(cum, curr, how='outer', left_index=True, right_index=True,
-                    on=['DistrictName', 'SchoolName']).fillna(0)
-
-def groupColumnForDif(colName):
-    colName = str(colName)
-    group = str(int(colName[:-2]) + 1) if colName[-1] == 'L' else colName
-    return 'Growth in ' + group
-
-def addGrowthToDataFrame(df):
-    dfCopy = df.drop(['DistrictName', 'SchoolName'], axis=1)
-    dfCopy = pd \
-        .merge(dfCopy.rename(columns=lambda name: str(name) + '-L') * -1, dfCopy, left_index=True, right_index=True) \
-        .drop(['2006', '2016-L'], axis=1) \
-        .groupby(groupColumnForDif, axis=1) \
-        .sum()
-    return pd.merge(df, dfCopy, right_index=True, left_index=True)
-
-def getSchools():
-    return addGrowthToDataFrame(reduce(reduceData, map(csvToDataFrame, getFiles()), None))
+def schools(minStudentsEveryYr: int):
+    df = reduce(reduceArrayOfDfs, map(csvToDataFrame, getFiles()), None)
+    df = df.where(df >= minStudentsEveryYr).dropna()
+    return addGrowthRate(addYTYChangeToDf(df))

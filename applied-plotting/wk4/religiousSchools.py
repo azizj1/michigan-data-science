@@ -25,13 +25,15 @@ def loadSchoolsFromWeb():
 def readSchoolsFromCsv():
     return pd.read_csv(PERSISTED_LIST_FILE)
 
-def writeCsv(schools):
-    schools.to_csv(PERSISTED_LIST_FILE, header=True, index=False)
+def writeCsv(schoolsDf):
+    schoolsDf.to_csv(PERSISTED_LIST_FILE, header=True, index=False)
 
-def getSchools():
+def schools():
     if path.exists(PERSISTED_LIST_FILE):
         return readSchoolsFromCsv()
     else:
-        schools = pd.Series(loadSchoolsFromWeb(), name='SchoolName')
+        schools = pd.DataFrame(loadSchoolsFromWeb(), columns=['SchoolName']) \
+            .sort_values(by='SchoolName') \
+            .drop_duplicates()
         writeCsv(schools)
         return schools

@@ -1,6 +1,7 @@
 from functools import reduce
 import os
 import pandas as pd
+from common import reduceArrayOfDfs, addYTYChangeToDf, addGrowthRate
 
 class PrivateSchoolFile:
     def __init__(self, path):
@@ -31,28 +32,10 @@ def excelToDataFrame(file: PrivateSchoolFile):
             .where(data[file.year] > 0) \
             .dropna() \
             .set_index('SchoolCode')
-    print('loaded {} data for {}'.format(data.shape, file.path))
+    # print('Loaded {} data for {}'.format(data.shape, file.path))
     return data
 
-def reduceData(cum, curr):
-    if cum is None:
-        return curr
-    return pd.merge(curr, cum, how='outer', left_index=True, right_index=True,
-                    on=['DistrictName', 'SchoolName']).fillna(0)
-
-def groupColumnForDif(colName):
-    colName = str(colName)
-    group = str(int(colName[:-2]) + 1) if colName[-1] == 'L' else colName
-    return 'Growth in ' + group
-
-def addGrowthToDataFrame(df):
-    dfCopy = df.drop(['DistrictName', 'SchoolName'], axis=1)
-    dfCopy = pd \
-        .merge(dfCopy.rename(columns=lambda name: str(name) + '-L') * -1, dfCopy, left_index=True, right_index=True) \
-        .drop([2006, '2016-L'], axis=1) \
-        .groupby(groupColumnForDif, axis=1) \
-        .sum()
-    return pd.merge(df, dfCopy, right_index=True, left_index=True)
-
-def getSchools():
-    return addGrowthToDataFrame(reduce(reduceData, map(excelToDataFrame, getFiles()), None))
+def schools(minStudentsEveryYr: int):
+    df = reduce(reduceArrayOfDfs, map(excelToDataFrame, getFiles()), None)
+    df = df.where(df >= minStudentsEveryYr).dropna()
+    return addGrowthRate(addYTYChangeToDf(df))
