@@ -25,18 +25,34 @@ def excelToDataFrame(file: PrivateSchoolFile):
         .dropna(axis=1, how='all') \
         .dropna(subset=['School']) \
         .filter(regex=r'School|District|9th|10th|11th|12th|(Sch Code)')
-    data.columns = ['District', 'SchoolCode', 'School', '9', '10', '11', '12']
+    data.columns = ['DistrictName', 'SchoolCode', 'SchoolName', '9', '10', '11', '12']
     data.loc[:, file.year] = data['9'] + data['10'] + data['11'] + data['12']
-    data = data[['District', 'SchoolCode', 'School', file.year]] \
+    data = data[['DistrictName', 'SchoolCode', 'SchoolName', file.year]] \
             .where(data[file.year] > 0) \
             .dropna() \
             .set_index('SchoolCode')
+    print('loaded {} data for {}'.format(data.shape, file.path))
     return data
 
 def reduceData(cum, curr):
     if cum is None:
         return curr
-    return pd.merge(curr, cum, how='outer', left_index=True, right_index=True, on=['District', 'School'])
+    return pd.merge(curr, cum, how='outer', left_index=True, right_index=True,
+                    on=['DistrictName', 'SchoolName']).fillna(0)
+
+def groupColumnForDif(colName):
+    colName = str(colName)
+    group = str(int(colName[:-2]) + 1) if colName[-1] == 'L' else colName
+    return 'Growth in ' + group
+
+def addGrowthToDataFrame(df):
+    dfCopy = df.drop(['DistrictName', 'SchoolName'], axis=1)
+    dfCopy = pd \
+        .merge(dfCopy.rename(columns=lambda name: str(name) + '-L') * -1, dfCopy, left_index=True, right_index=True) \
+        .drop([2006, '2016-L'], axis=1) \
+        .groupby(groupColumnForDif, axis=1) \
+        .sum()
+    return pd.merge(df, dfCopy, right_index=True, left_index=True)
 
 def getSchools():
-    return reduce(reduceData, map(excelToDataFrame, getFiles()), None)
+    return addGrowthToDataFrame(reduce(reduceData, map(excelToDataFrame, getFiles()), None))

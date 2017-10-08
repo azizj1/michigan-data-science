@@ -28,7 +28,7 @@ def readSchoolsFromCsv():
 def writeCsv(schools):
     schools.to_csv(PERSISTED_LIST_FILE, header=True, index=False)
 
-def getReligiousSchools():
+def getSchools():
     if path.exists(PERSISTED_LIST_FILE):
         return readSchoolsFromCsv()
     else:
