@@ -1,7 +1,13 @@
 from functools import reduce
 import os
 import pandas as pd
-from common import reduceArrayOfDfs, addYTYChangeToDf, addGrowthRate
+from common import \
+    reduceArrayOfDfs, \
+    addYTYChangeToDf, \
+    addGrowthRate, \
+    filterRows, \
+    filterColumnsToGrowth, \
+    filterColumnsToStartingYr
 
 class PrivateSchoolFile:
     def __init__(self, path):
@@ -17,8 +23,7 @@ class PrivateSchoolFile:
 
 def getFiles():
     dataDir = './data/private-schools/'
-    x = [PrivateSchoolFile(dataDir + f.name) for f in os.scandir(dataDir) if f.is_file() & (f.name != '.DS_Store')]
-    return x
+    return [PrivateSchoolFile(dataDir + f.name) for f in os.scandir(dataDir) if f.is_file() & (f.name != '.DS_Store')]
 
 def excelToDataFrame(file: PrivateSchoolFile):
     data = pd \
@@ -28,14 +33,12 @@ def excelToDataFrame(file: PrivateSchoolFile):
         .filter(regex=r'School|District|9th|10th|11th|12th|(Sch Code)')
     data.columns = ['DistrictName', 'SchoolCode', 'SchoolName', '9', '10', '11', '12']
     data.loc[:, file.year] = data['9'] + data['10'] + data['11'] + data['12']
-    data = data[['DistrictName', 'SchoolCode', 'SchoolName', file.year]] \
+
+    return data[['DistrictName', 'SchoolCode', 'SchoolName', file.year]] \
             .where(data[file.year] > 0) \
             .dropna() \
             .set_index('SchoolCode')
-    # print('Loaded {} data for {}'.format(data.shape, file.path))
-    return data
 
-def schools(minStudentsEveryYr: int):
-    df = reduce(reduceArrayOfDfs, map(excelToDataFrame, getFiles()), None)
-    df = df.where(df >= minStudentsEveryYr).dropna()
-    return addGrowthRate(addYTYChangeToDf(df))
+def schools(startingYr: int = 2007, minStudentsEveryYr: int = 0):
+    df = filterColumnsToStartingYr(reduce(reduceArrayOfDfs, map(excelToDataFrame, getFiles()), None), startingYr)
+    return filterColumnsToGrowth(addGrowthRate(addYTYChangeToDf(filterRows(df, minStudentsEveryYr))))

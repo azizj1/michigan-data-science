@@ -1,7 +1,9 @@
 import os.path as path
 import requests
 import pandas as pd
+import privateSchools as priv
 from bs4 import BeautifulSoup
+from common import religiousSchoolsNameChanges
 
 RELIGIOUS_SCHOOLS_BASE_URL = 'https://www.niche.com/k12/search/best-schools/s/wisconsin/'
 RELIGIOUS_SCHOOLS_QUERY = '?type=private&religion=muslim&religion=jewish&religion=christian&religion=catholic' + \
@@ -15,12 +17,12 @@ def getNumberOfPages():
 
 def loadSchoolsFromWeb():
     numOfPages = getNumberOfPages()
-    schools = []
+    schoolNames = []
     for i in range(1, numOfPages+1):
         page = requests.get(RELIGIOUS_SCHOOLS_BASE_URL + RELIGIOUS_SCHOOLS_QUERY + '&page={}'.format(i))
         soup = BeautifulSoup(page.content, 'html.parser')
-        schools.extend(map(lambda s: s.text, soup.select('h2.search-result-entity-name')))
-    return schools
+        schoolNames.extend(map(lambda s: s.text, soup.select('h2.search-result-entity-name')))
+    return schoolNames
 
 def readSchoolsFromCsv():
     return pd.read_csv(PERSISTED_LIST_FILE)
@@ -28,12 +30,18 @@ def readSchoolsFromCsv():
 def writeCsv(schoolsDf):
     schoolsDf.to_csv(PERSISTED_LIST_FILE, header=True, index=False)
 
-def schools():
+def religiousSchoolNames():
     if path.exists(PERSISTED_LIST_FILE):
         return readSchoolsFromCsv()
     else:
-        schools = pd.DataFrame(loadSchoolsFromWeb(), columns=['SchoolName']) \
+        schoolNames = pd.DataFrame(loadSchoolsFromWeb(), columns=['SchoolName']) \
             .sort_values(by='SchoolName') \
             .drop_duplicates()
-        writeCsv(schools)
-        return schools
+        writeCsv(schoolNames)
+        return schoolNames
+
+def schools(startingYr: int = 2007, minStudentsEveryYr: int = 0):
+    privateSchools = priv.schools(startingYr, minStudentsEveryYr) \
+                        .replace({'SchoolName': religiousSchoolsNameChanges()}, regex=True)
+    religiousSchools = religiousSchoolNames().replace(religiousSchoolsNameChanges(), regex=True).drop_duplicates()
+    return pd.merge(privateSchools, religiousSchools, how='inner', on='SchoolName')
