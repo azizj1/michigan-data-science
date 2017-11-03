@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, Lasso
 from sklearn.preprocessing import PolynomialFeatures
 from matplotlib import pyplot as plt
 
@@ -27,6 +27,35 @@ def q1(x, y):
 
     return np.array(predictedValues)
 
-ans = q1(xGlobal, yGlobal)
-print(ans)
-print(ans.shape)
+def q2(x, y):
+    trainR2s = []
+    testR2s = []
+    for d in range(0, 10):
+        poly = PolynomialFeatures(degree=d)
+        X_poly = poly.fit_transform(np.array(x).reshape(-1, 1))
+        X_train, X_test, y_train, y_test = train_test_split(X_poly, y, random_state=0)
+
+        linreg = LinearRegression().fit(X_train, y_train)
+        trainR2s.append(linreg.score(X_train, y_train))
+        testR2s.append(linreg.score(X_test, y_test))
+
+    return np.array(trainR2s), np.array(testR2s)
+
+def q3(x, y):
+    trainR2, testR2 = q2(x, y)
+    underfitting = np.argmin(trainR2)
+    overfitting = np.argmax(trainR2)
+    justRight = np.argmax(testR2)
+    return (underfitting, overfitting, justRight)
+
+def q4(x, y):
+    poly = PolynomialFeatures(degree=12)
+    X_poly = poly.fit_transform(np.array(x).reshape(-1, 1))
+    X_train, X_test, y_train, y_test = train_test_split(X_poly, y, random_state=0)
+    linreg = LinearRegression().fit(X_train, y_train)
+    lasreg = Lasso(alpha=0.01, max_iter=10000).fit(X_train, y_train)
+    return linreg.score(X_test, y_test), lasreg.score(X_test, y_test)
+
+train, test = q4(xGlobal, yGlobal)
+print(train)
+print(test)
