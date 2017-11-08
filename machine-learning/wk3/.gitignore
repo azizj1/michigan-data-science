@@ -1,0 +1,2 @@
+# fraud_data.csv is > 100mb so don't commit that; commit the compressed .zip instead
+fraud_data.csv
