@@ -4,6 +4,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler, Imputer
 from sklearn.pipeline import Pipeline
+from sklearn.ensemble import GradientBoostingClassifier
+from matplotlib import pyplot as plt
 
 def data(csvfile: str, hastarget: bool):
     usecols = ['ticket_id', 'agency_name', 'ticket_issued_date', 'disposition', 'fine_amount',
@@ -30,7 +32,7 @@ def traindata():
     return df.filter(regex=r'^(?!compliance)'), df['compliance']
 
 def testdata():
-    return data('test.csv', False) #pd.get_dummies(data('test.csv', False))
+    return data('test.csv', False)
 
 def sync_cat_data(Xtrain, Xtest):
     agency_categories = np.union1d(Xtrain['agency_name'].cat.categories, Xtest['agency_name'].cat.categories)
@@ -44,22 +46,25 @@ def cat2features(X):
     return pd.get_dummies(X)
 
 def fit(X, y):
-    param_grid = {'classifier__C': [10, 20]}
+    param_grid = {'classifier__n_estimators': [100, 200, 400, 800, 1000]}
     pipeline = Pipeline(steps=[
         ('imputer', Imputer()),
         ('scaler', MinMaxScaler()),
-        ('classifier', LogisticRegression())])
+        ('classifier', GradientBoostingClassifier())])
     return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=3).fit(X, y)
 
 def predict(clf, X, index):
     predicted = clf.predict_proba(X)
     return pd.Series(predicted[:, 1], index=index, name='compliance')
 
-def execute():
+def blight_model():
     Xtrain, ytrain = traindata()
     Xtest = testdata()
     sync_cat_data(Xtrain, Xtest)
     Xtrain = cat2features(Xtrain)
     Xtest = cat2features(Xtest)
     clf = fit(Xtrain.values, ytrain.values)
-    return predict(clf, Xtest.values, Xtest.index)
+    return clf.best_score_, predict(clf, Xtest.values, Xtest.index)
+
+score, results = blight_model()
+print(score)
