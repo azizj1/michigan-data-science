@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
@@ -9,8 +10,7 @@ def data(csvfile: str, hastarget: bool):
                'discount_amount', 'judgment_amount']
     if (hastarget):
         usecols.append('compliance')
-    trainData = pd.read_csv(csvfile, index_col=0, parse_dates=['ticket_issued_date'],
-                            dtype={'agency_name': 'category', 'disposition': 'category'}, usecols=usecols)
+    trainData = pd.read_csv(csvfile, index_col=0, parse_dates=['ticket_issued_date'], usecols=usecols)
     if (hastarget):
         trainData = trainData.dropna(subset=['compliance'])
     trainData.loc[:, 'ticket_issued_date'] = trainData['ticket_issued_date'] \
@@ -21,32 +21,45 @@ def data(csvfile: str, hastarget: bool):
     ticketLatLonData = pd.merge(addressesData, latLonData, left_on='address', right_index=True)
     df = pd.merge(trainData, ticketLatLonData[['lat', 'lon']], left_index=True, right_index=True) # may have nans
 
-    df.loc[:, 'agency_name'] = df['agency_name'].cat.remove_unused_categories()
-    df.loc[:, 'disposition'] = df['disposition'].cat.remove_unused_categories()
+    df.loc[:, 'agency_name'] = pd.Categorical(df['agency_name'])
+    df.loc[:, 'disposition'] = pd.Categorical(df['disposition'])
     return df
 
 def traindata():
     df = data('train.csv', True)
-    return pd.get_dummies(df.filter(regex=r'^(?!compliance)')), df['compliance'].values
+    return df.filter(regex=r'^(?!compliance)'), df['compliance']
 
 def testdata():
-    return pd.get_dummies(data('test.csv', False))
+    return data('test.csv', False) #pd.get_dummies(data('test.csv', False))
+
+def sync_cat_data(Xtrain, Xtest):
+    agency_categories = np.union1d(Xtrain['agency_name'].cat.categories, Xtest['agency_name'].cat.categories)
+    disposition_categories = np.union1d(Xtrain['disposition'].cat.categories, Xtest['disposition'].cat.categories)
+    Xtrain.loc[:, 'agency_name'] = pd.Categorical(Xtrain['agency_name'], categories=agency_categories)
+    Xtrain.loc[:, 'disposition'] = pd.Categorical(Xtrain['disposition'], categories=disposition_categories)
+    Xtest.loc[:, 'agency_name'] = pd.Categorical(Xtest['agency_name'], categories=agency_categories)
+    Xtest.loc[:, 'disposition'] = pd.Categorical(Xtest['disposition'], categories=disposition_categories)
+
+def cat2features(X):
+    return pd.get_dummies(X)
 
 def fit(X, y):
-    param_grid = {'classifier__C': [10]}
+    param_grid = {'classifier__C': [10, 20]}
     pipeline = Pipeline(steps=[
         ('imputer', Imputer()),
         ('scaler', MinMaxScaler()),
         ('classifier', LogisticRegression())])
-    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=3, n_jobs=-1).fit(X, y)
+    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=3).fit(X, y)
 
 def predict(clf, X, index):
     predicted = clf.predict_proba(X)
-    return pd.Series(predicted, index=index)
+    return pd.Series(predicted[:, 1], index=index, name='compliance')
 
 def execute():
     Xtrain, ytrain = traindata()
     Xtest = testdata()
-    clf = fit(Xtrain, ytrain)
-    print(clf.best_score_)
+    sync_cat_data(Xtrain, Xtest)
+    Xtrain = cat2features(Xtrain)
+    Xtest = cat2features(Xtest)
+    clf = fit(Xtrain.values, ytrain.values)
     return predict(clf, Xtest.values, Xtest.index)
