@@ -5,6 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler, Imputer
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.tree import DecisionTreeClassifier
 from matplotlib import pyplot as plt
 
 def data(csvfile: str, hastarget: bool):
@@ -45,26 +46,42 @@ def sync_cat_data(Xtrain, Xtest):
 def cat2features(X):
     return pd.get_dummies(X)
 
+def all_data():
+    Xtrain, ytrain = traindata()
+    Xtest = testdata()
+    sync_cat_data(Xtrain, Xtest)
+    Xtrain = cat2features(Xtrain)
+    Xtest = cat2features(Xtest)
+    return Xtrain, Xtest, ytrain
+
+def feature_importance():
+    Xtrain, _, ytrain = all_data()
+    imputed = Imputer().fit_transform(Xtrain.values)
+    scaled = MinMaxScaler().fit_transform(imputed)
+    clf = DecisionTreeClassifier(max_depth=1000).fit(scaled, ytrain)
+    return pd.Series(clf.feature_importances_, index=Xtrain.columns)
+
 def fit(X, y):
-    param_grid = {'classifier__n_estimators': [100, 200, 400, 800, 1000]}
+    param_grid = {'classifier__C': [10, 15, 20, 25, 100]}
     pipeline = Pipeline(steps=[
         ('imputer', Imputer()),
         ('scaler', MinMaxScaler()),
-        ('classifier', GradientBoostingClassifier())])
-    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=3).fit(X, y)
+        ('classifier', LogisticRegression())])
+    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=3, verbose=10).fit(X, y)
 
 def predict(clf, X, index):
     predicted = clf.predict_proba(X)
     return pd.Series(predicted[:, 1], index=index, name='compliance')
 
 def blight_model():
-    Xtrain, ytrain = traindata()
-    Xtest = testdata()
-    sync_cat_data(Xtrain, Xtest)
-    Xtrain = cat2features(Xtrain)
-    Xtest = cat2features(Xtest)
+    Xtrain, Xtest, ytrain = all_data()
     clf = fit(Xtrain.values, ytrain.values)
-    return clf.best_score_, predict(clf, Xtest.values, Xtest.index)
+    return clf, predict(clf, Xtest.values, Xtest.index)
 
-score, results = blight_model()
-print(score)
+def main():
+    print(feature_importance())
+    clf, results = blight_model()
+    print(clf.best_score_)
+
+if __name__ == '__main__':
+    main()
