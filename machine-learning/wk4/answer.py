@@ -15,7 +15,8 @@ def data(csvfile: str, hastarget: bool, cat_features=None):
     if hastarget:
         usecols.append('compliance')
 
-    trainData = pd.read_csv(csvfile, index_col=0, parse_dates=['ticket_issued_date'], usecols=usecols)
+    trainData = pd.read_csv(csvfile, index_col=0, parse_dates=['ticket_issued_date'], usecols=usecols) \
+                    .replace({'violation_code': {r'^([-\.0-9]+).*': r'\1'}}, regex=True)
     if hastarget:
         trainData = trainData.dropna(subset=['compliance'])
     trainData.loc[:, 'ticket_issued_date'] = trainData['ticket_issued_date'] \
@@ -76,7 +77,7 @@ def fit(X, y):
         ('imputer', Imputer()),
         ('scaler', MinMaxScaler()),
         ('classifier', LogisticRegression())])
-    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=5, verbose=10, n_jobs=-1).fit(X, y)
+    return GridSearchCV(pipeline, param_grid=param_grid, scoring='roc_auc', cv=5, verbose=10, n_jobs=1).fit(X, y)
 
 def predict(clf, X, index):
     predicted = clf.predict_proba(X)
@@ -88,7 +89,7 @@ def blight_model(cat_features=None):
     return clf
 
 def main():
-    cat_features = ['disposition', 'violation_code']
+    cat_features = ['disposition', 'violation_code', 'agency_name']
     print(feature_importance(cat_features))
     clf = blight_model(cat_features)
     print(clf.best_score_)
