@@ -63,7 +63,8 @@ def similarity_score(synsets1, synsets2):
         similarity_score(synsets1, synsets2)
         Out: 0.73333333333333339
     '''
-    return np.mean([max(s1.path_similarity(s2) or 0 for s2 in synsets2) for s1 in synsets1])
+    scores = list(filter(lambda x: x > 0, [max(s1.path_similarity(s2) or 0 for s2 in synsets2) for s1 in synsets1]))
+    return np.mean(scores)
 
 def document_path_similarity(doc1, doc2):
     """Finds the symmetrical similarity between doc1 and doc2"""
@@ -80,10 +81,8 @@ def test_document_path_similarity():
 
 def most_similar_docs():
     paraphrases = pd.read_csv('paraphrases.csv')
-    d1, d2, score = paraphrases \
-        .apply(lambda r: pd.Series([r['D1'], r['D2'], document_path_similarity(r['D1'], r['D2'])]), axis=1) \
-        .max() \
-        .tolist()
+    df = paraphrases.apply(lambda r: pd.Series([r['D1'], r['D2'], document_path_similarity(r['D1'], r['D2'])]), axis=1)
+    d1, d2, score = df.loc[df[2].idxmax()]
     return d1, d2, score
 
 def label_accuracy():
