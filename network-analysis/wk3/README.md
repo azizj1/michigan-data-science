@@ -17,7 +17,7 @@ Answer questions 1-4 using the network `G1`, a network of friendships at a unive
 
 
 ```python
-import networkx as nxf
+import networkx as nx
 
 G1 = nx.read_gml('friendships.gml')
 ```
