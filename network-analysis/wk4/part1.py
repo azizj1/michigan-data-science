@@ -4,8 +4,11 @@ from scipy import stats
 def data():
     return [nx.read_edgelist(f'graph{i}.edgelist') for i in range(0, 5)]
 
+def pref_attachment_score(G):
+    return max(stats.zscore(list(map(lambda x: x[1], G.degree()))))
+
 def is_pref_attachment(G):
-    score = max(stats.zscore(list(map(lambda x: x[1], G.degree()))))
+    score = pref_attachment_score(G)
     return score > 8
 
 def is_small_world_low_wiring_prob(G):

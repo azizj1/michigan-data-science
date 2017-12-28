@@ -35,7 +35,7 @@ def fit(X, y, C):
 def predict(clf, df):
     X, _ = X_y(df)
     predictions = clf.predict_proba(X)
-    return pd.Series(predictions[:, 1], index=X.index)
+    return pd.Series(predictions[:, 1], index=X.index)  # [:, 1] and not [:, 0] because clf.classes_
 
 def execute():
     unknowns, train = clasifier_data(data())
