@@ -81,8 +81,8 @@ def fit(X, y):
 
 def predict(clf, X, index):
     predicted = clf.predict_proba(X)
-    return pd.Series(predicted[:, 1], index=index, name='compliance')
-
+    return pd.Series(predicted[:, 1], index=index, name='compliance') # [:, 1] and not [:, 0] because clf.classes_
+    
 def blight_model(cat_features=None):
     Xtrain, _, ytrain = all_data(cat_features)
     clf = fit(Xtrain.values, ytrain.values)
